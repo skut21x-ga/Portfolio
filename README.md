@@ -1,2 +1,2 @@
-# portfolio
-scott kutler's portfolio
+# Scott Kutler's Portfolio  
+This is my React based portfolio.
