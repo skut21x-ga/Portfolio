@@ -4,7 +4,7 @@ import abstract from "./assets/abstract-small-wide.png";
 class intro extends React.Component {
   render() {
     return (
-      <div>
+      <div className="intro-background-color">
         <div className="intro-overlay"></div>
         <div
           className="intro-background"
