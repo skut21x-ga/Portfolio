@@ -1,5 +1,5 @@
 import React from "react";
-import abstract from "./assets/abstract-small.png";
+import abstract from "./assets/abstract-small-wide.png";
 
 class intro extends React.Component {
   render() {
