@@ -1,21 +1,21 @@
 import React from "react";
 import abstract from "./assets/abstract-small.png";
 
-class Intro extends React.Component {
+class intro extends React.Component {
   render() {
     return (
       <div>
-        <div className="Intro-Overlay"></div>
+        <div className="intro-overlay"></div>
         <div
-          className="Intro-Background"
+          className="intro-background"
           style={{ backgroundImage: `url(${abstract})` }}
         >
-          <a className="Intro-Name">Scott Kutler</a>
-          <a className="Intro-Subheading">Full Stack Software Engineer</a>
+          <a className="intro-name">Scott Kutler</a>
+          <a className="intro-subheading">Full Stack Engineer</a>
         </div>
       </div>
     );
   }
 }
 
-export default Intro;
+export default intro;

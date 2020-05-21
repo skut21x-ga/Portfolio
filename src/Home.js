@@ -3,21 +3,23 @@ import Contact from "./Contact";
 import About from "./About";
 import Intro from "./Intro";
 import "./App.css";
+import MyWork from "./MyWork";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
         <Intro></Intro>
-        <ul>
-          <li>Home Page</li>
-          <li>
-            <About></About>
-          </li>
-          <li>
-            <Contact></Contact>
-          </li>
-        </ul>{" "}
+        <h3></h3>
+        <h3>
+          <About></About>
+        </h3>
+        <h3>
+          <MyWork></MyWork>
+        </h3>
+        <h3>
+          <Contact></Contact>
+        </h3>
       </div>
     );
   }
