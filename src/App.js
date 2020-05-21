@@ -4,7 +4,9 @@ import Contact from "./Contact";
 import About from "./About";
 import NavBar from "./NavBar";
 import MyWork from "./MyWork";
+import Intro from "./Intro";
 import { Route } from "react-router-dom";
+import "./App.css";
 
 class App extends React.Component {
   render() {
@@ -13,26 +15,13 @@ class App extends React.Component {
         <div className="portfolio-header">
           <NavBar></NavBar>
         </div>
-        <div>
-          <ul>
-            <li>
-              Contents
-              <Home></Home>
-            </li>
-            <li>
-              <About></About>
-            </li>
-            <li>
-              <Contact></Contact>
-            </li>
-          </ul>
-        </div>
         <Route path="/" exact component={Home} />
+        <Route path="/Intro" exact component={Intro} />
         <Route path="/About" component={About} />
         <Route path="/MyWork" component={MyWork} />
         <Route path="/Contact" component={Contact} />
-
-        {this.props.children}
+        {/* 
+        {this.props.children} */}
       </div>
     );
   }
