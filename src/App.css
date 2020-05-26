@@ -220,7 +220,6 @@ h6 {
 .resume-page {
   display: flex;
   justify-content: center;
-  margin-top: -50px;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   -moz-animation: fadeIn ease 4s;
@@ -433,7 +432,7 @@ h6 {
   align-items: center;
   z-index: -1;
   height: 90vh;
-  margin-top: 10vh;
+  margin-top: 50px;
 }
 
 .intro-background-color {
@@ -463,7 +462,6 @@ h6 {
   text-align: center;
   font-size: 15px;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 body {
