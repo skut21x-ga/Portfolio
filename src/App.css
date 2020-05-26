@@ -23,11 +23,11 @@
 .portfolio-container {
   margin-top: 50px;
   display: grid;
-  grid-template-rows: 5;
+  grid-template-rows: 6;
   grid-template-columns: 5;
   grid-template-areas:
-    "header header header header "
-    "footer footer footer footer ";
+    "header header header  header "
+    "footer footer footer  footer ";
   row-gap: 45px;
   justify-items: center;
   align-items: center;
