@@ -1,27 +1,13 @@
 import React from "react";
 
-class Contact extends React.Component {
-  componentDidMount() {
-    const script = document.createElement("script");
-    script.src = "//www.123formbuilder.com/embed/5470266.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }
+class ContactConfirm extends React.Component {
   render() {
     return (
       <div className="contact-form-container">
-        <div className="contact-form">
-          <script
-            type="text/javascript"
-            defer
-            src="//www.123formbuilder.com/embed/5470266.js"
-            data-role="form"
-            data-default-width="700px"
-          ></script>
-        </div>
+        <a className="contact-thank-you">Thank you for your submission.</a>
       </div>
     );
   }
 }
 
-export default Contact;
+export default ContactConfirm;
