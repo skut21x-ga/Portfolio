@@ -22,6 +22,7 @@ class App extends React.Component {
         <Route path="/MyWork" component={MyWork} />
         <Route path="/Contact" component={Contact} />
         <Route path="/ContactConfirm" component={ContactConfirm} />
+        <Route path="/ContactConfirm?" component={ContactConfirm} />
 
         {/* 
         {this.props.children} */}
