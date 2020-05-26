@@ -21,6 +21,7 @@
 }
 
 .portfolio-container {
+  row-gap: 45px;
   margin-top: 50px;
   display: grid;
   grid-template-rows: 6;
@@ -28,7 +29,7 @@
   grid-template-areas:
     "header header header  header "
     "footer footer footer  footer ";
-  row-gap: 45px;
+
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -287,6 +288,10 @@ h6 {
   -ms-animation: fadeIn ease 17s;
 }
 
+.portfolio-image {
+  width: 350px;
+}
+
 .portfolio-description {
   font-style: italic;
   font-size: 14px;
@@ -296,10 +301,6 @@ h6 {
 .portfolio-gitlink {
   font-size: 14px;
   color: rgb(207, 207, 207);
-}
-
-.portfolio-image {
-  width: 350px;
 }
 
 .portfolio-thumbnail {
@@ -522,8 +523,33 @@ html {
   .aboutme-header {
     margin-top: 20px;
   }
+
+  .portfolio-card1,
+  .portfolio-card2,
+  .portfolio-card3,
+  .portfolio-card4,
+  .portfolio-card5 {
+    border: white;
+    width: 300px;
+    height: 275px;
+  }
+
+  .portfolio-image {
+    width: 300px;
+  }
+
+  .portfolio-container {
+    row-gap: 15px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 6;
+    grid-template-columns: 3;
+    grid-template-areas:
+      "header header header   "
+      "footer footer footer   ";
+  }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .intro-name {
     font-size: 175px;
     line-height: 140px;
@@ -534,6 +560,29 @@ html {
     font-size: 15px;
     margin-top: -170px;
     text-shadow: 5px 5px solid black;
+  }
+  .portfolio-card1,
+  .portfolio-card2,
+  .portfolio-card3,
+  .portfolio-card4,
+  .portfolio-card5 {
+    border: white;
+    width: 250px;
+    height: 275px;
+  }
+
+  .portfolio-image {
+    width: 250px;
+  }
+  .portfolio-container {
+    row-gap: 45px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 6;
+    grid-template-columns: 3;
+    grid-template-areas:
+      "header header    "
+      "footer footer    ";
   }
 }
 @media only screen and (max-width: 800px) {
@@ -549,5 +598,8 @@ html {
     font-size: 15px;
     margin-bottom: 25px;
     text-shadow: 5px 5px solid black;
+  }
+  .portfolio-container {
+    row-gap: 0px;
   }
 }
