@@ -20,6 +20,32 @@
   z-index: 2;
 }
 
+.portfolio-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 5;
+  grid-template-columns: 5;
+  grid-template-areas:
+    "header header header header "
+    "footer footer footer footer ";
+  row-gap: 45px;
+  justify-items: center;
+  align-items: center;
+}
+
+.portfolio-card {
+  background-color: gray;
+  border: white;
+  width: 300px;
+  height: 250px;
+}
+
+.portfolio-thumbnail {
+  height: 172.5px;
+  background: white;
+  border-bottom: 2px solid black;
+}
+
 .fade-in-slower {
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
