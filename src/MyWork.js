@@ -434,7 +434,7 @@ class MyWork extends React.Component {
               <a className="portfolio-description"></a>
               <a
                 className="portfolio-gitlink"
-                href="https://trello.com/b/ntYWVGyf/sei-36-project-8	"
+                href="https://trello.com/b/ntYWVGyf/sei-36-project-8"
               >
                 <br></br> - Example Trello Board -
               </a>

@@ -9,7 +9,7 @@ class Contact extends React.Component {
   }
   render() {
     return (
-      <div className="contact-form-container">
+      <div className="contact-form-container fade-in-slow">
         <div className="contact-form">
           <h5 className="contact-myinfo">
             scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD 20814
