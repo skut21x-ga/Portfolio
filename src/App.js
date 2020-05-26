@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Contact from "./Contact";
+import ContactConfirm from "./ContactConfirm";
 import About from "./About";
 import NavBar from "./NavBar";
 import MyWork from "./MyWork";
@@ -20,6 +21,8 @@ class App extends React.Component {
         <Route path="/About" component={About} />
         <Route path="/MyWork" component={MyWork} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/ContactConfirm" component={ContactConfirm} />
+
         {/* 
         {this.props.children} */}
       </div>
