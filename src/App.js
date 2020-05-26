@@ -18,12 +18,11 @@ class App extends React.Component {
         </div>
         <Route path="/" exact component={Home} />
         <Route path="/Intro" exact component={Intro} />
-        <Route path="/About" component={About} />
+        <Route path="/About" component={About} />{" "}
         <Route path="/MyWork" component={MyWork} />
         <Route path="/Contact" component={Contact} />
         <Route path="/ContactConfirm" component={ContactConfirm} />
         <Route path="/ContactConfirm?" component={ContactConfirm} />
-
         {/* 
         {this.props.children} */}
       </div>

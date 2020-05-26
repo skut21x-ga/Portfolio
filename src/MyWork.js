@@ -37,7 +37,6 @@ class MyWork extends React.Component {
   render() {
     return (
       <div>
-        <h5 className="mywork-header">My Work</h5>
         <div className="portfolio-container">
           <div className="portfolio-card">
             <div>

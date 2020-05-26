@@ -10,10 +10,9 @@ class Home extends React.Component {
     return (
       <div>
         <Intro></Intro>
-        <h3></h3>
-        <About></About>
+        <h2 className="aboutme-header">About Me</h2>
+        <About></About> <h2 className="mywork-header">My Work</h2>
         <MyWork></MyWork>
-
         <Contact></Contact>
       </div>
     );

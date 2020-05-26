@@ -5,7 +5,6 @@ class About extends React.Component {
     return (
       <div className="resume-page">
         <div className="resume-container">
-          <h5 className="aboutme-header">About Me</h5>
           <body class="c3 c9">
             <p class="c6">
               <span class="c1">&nbsp;Scott Kutler</span>
