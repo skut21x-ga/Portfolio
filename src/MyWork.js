@@ -39,17 +39,27 @@ class MyWork extends React.Component {
       <div>
         <div className="portfolio-container">
           <div className="portfolio-card">
-            <div className="portfolio-thumbnail">
-              <img src="airbnb"></img>
+            <div>
+              <img className="portfolio-image" src={airbnb}></img>
             </div>
-            <div className="portfolio-headline"></div>
-            <div className="portfolio-description"></div>
-            <div className="portfolio-gitlink"></div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://skut21x-ga.github.io/airbnb/lib/index.html"
+              >
+                Travel Website Mockup
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://git.generalassemb.ly/skut21x/css-airbnb"
+              >
+                <br></br>GIT Repo
+              </a>
+            </div>
           </div>
-          {/* 
-          <div className="portfolio-card"></div>
-          <div className="portfolio-card"></div>{" "}
-          <div className="portfolio-card"></div> */}
         </div>
       </div>
     );
