@@ -11,6 +11,9 @@ class Contact extends React.Component {
     return (
       <div className="contact-form-container">
         <div className="contact-form">
+          <h5 className="contact-myinfo">
+            scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD 20814
+          </h5>
           <script
             type="text/javascript"
             defer

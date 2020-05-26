@@ -37,6 +37,7 @@ class MyWork extends React.Component {
   render() {
     return (
       <div>
+        <h5 className="mywork-header">My Work</h5>
         <div className="portfolio-container">
           <div className="portfolio-card">
             <div>
@@ -139,7 +140,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card2">
             <div>
               <img className="portfolio-image" src={Cocktails}></img>
             </div>
@@ -161,7 +162,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card2">
             <div>
               <img className="portfolio-image" src={War}></img>
             </div>
@@ -178,7 +179,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card2">
             <div>
               <img className="portfolio-image" src={ComponentLibrary}></img>
             </div>
@@ -200,7 +201,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card2">
             <div>
               <img className="portfolio-image" src={MCU}></img>
             </div>
@@ -229,7 +230,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card3">
             <div>
               <img className="portfolio-image" src={Beatles}></img>
             </div>
@@ -259,7 +260,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card3">
             <div>
               <img className="portfolio-image" src={BeatlesBackend}></img>
             </div>
@@ -281,7 +282,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card3">
             <div>
               <img className="portfolio-image" src={NationalParks}></img>
             </div>
@@ -303,7 +304,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card3">
             <div>
               <img className="portfolio-image" src={CoTripper}></img>
             </div>
@@ -325,7 +326,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card4">
             <div>
               <img className="portfolio-image" src={Python}></img>
             </div>
@@ -342,7 +343,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card5">
             <div>
               <img className="portfolio-image" src={GuessNumber}></img>
             </div>
@@ -359,7 +360,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card5">
             <div>
               <img className="portfolio-image" src={StateCapital}></img>
             </div>
@@ -376,7 +377,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card">
+          <div className="portfolio-card5">
             <div>
               <img className="portfolio-image" src={Trello}></img>
             </div>
