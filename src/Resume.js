@@ -4,7 +4,7 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="resume-page">
-        <br></br>{" "}
+        <br></br>
         <div className="full-resume-container">
           <iframe
             className="full-resume-content"
