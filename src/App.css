@@ -233,7 +233,8 @@ h6 {
 .resume-aboutme {
   width: 80vw;
   text-align: center;
-  margin-bottom: -50px;
+  margin-bottom: -15px;
+  font-family: Lato;
 }
 
 .portfolio-card {
@@ -448,13 +449,18 @@ h6 {
   display: flex;
   text-align: center;
   flex-direction: column;
-  align-items: center;
   z-index: -1;
-  height: 100vh;
-  width: 90vw;
-  margin-top: 70px;
+  height: 1000px;
+  width: 800px;
   background-color: black;
   border: 0px solid white;
+}
+
+.resume-embed {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .intro-background-color {
@@ -483,7 +489,7 @@ h6 {
   color: white;
   text-align: center;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 body {
@@ -541,7 +547,8 @@ html {
   }
 
   .aboutme-header {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px;
   }
 
   .portfolio-card1,

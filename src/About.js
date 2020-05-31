@@ -10,12 +10,12 @@ class About extends React.Component {
           personality and ability to problem-solve under pressure, I can serve
           as a great addition to any team.
         </h4>
-        <br></br>
-        <p></p>
-        <iframe
-          className="resume-container"
-          src="https://docs.google.com/document/d/e/2PACX-1vQ9o2yhey4m_9x1YTb00GIEGoYXLaYmOwmFffO982cbdfpNyJD5am4NP6I0t0VZiqeactdeIlcxqMuD/pub?embedded=true"
-        ></iframe>
+        <div className="resume-embed">
+          <embed
+            className="resume-container"
+            src="https://docs.google.com/document/d/e/2PACX-1vQ9o2yhey4m_9x1YTb00GIEGoYXLaYmOwmFffO982cbdfpNyJD5am4NP6I0t0VZiqeactdeIlcxqMuD/pub?embedded=true"
+          ></embed>
+        </div>
       </div>
     );
   }
