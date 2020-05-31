@@ -12,7 +12,7 @@ class Home extends React.Component {
         <Intro></Intro>
         <h2 className="aboutme-header">About Me</h2>
         <About></About> <h2 className="mywork-header">My Work</h2>
-        <MyWork></MyWork>
+        <MyWork></MyWork> <h2 className="mywork-header">Contact Information</h2>
         <Contact></Contact>
       </div>
     );

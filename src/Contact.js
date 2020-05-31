@@ -12,7 +12,11 @@ class Contact extends React.Component {
       <div className="contact-form-container fade-in-slow">
         <div className="contact-form">
           <h5 className="contact-myinfo">
-            scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD 20814
+            <a href="mailto:scott.kutler@gmail.com">scott.kutler@gmail.com</a> |{" "}
+            <a href="tel:469-387-0895">469.387.0895</a> |{" "}
+            <a href="https://maps.google.com/?q=Bethesda,%20Maryland">
+              Bethesda, MD, USA
+            </a>
           </h5>
           <script
             type="text/javascript"

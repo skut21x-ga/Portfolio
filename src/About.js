@@ -94,7 +94,7 @@ class About extends React.Component {
               <br />
               Webflow CMS
               <br />
-              Socia Media / Branding
+              Social Media / Branding
               <br />
             </h5>{" "}
           </div>
@@ -104,6 +104,15 @@ class About extends React.Component {
             className="resume-container"
             src="https://docs.google.com/document/d/e/2PACX-1vQ9o2yhey4m_9x1YTb00GIEGoYXLaYmOwmFffO982cbdfpNyJD5am4NP6I0t0VZiqeactdeIlcxqMuD/pub?embedded=true"
           ></embed>
+        </div>
+        <div class="resume-flex-grid">
+          <div class="resume-col1">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vTE8R3-TxsBTkFFZWSgknXhbybqLFWuE4fs-Iqi_MGr2FOvKosnC1EOIM8cXLwgdo6lu283zP5MdzJA/pub">
+              View Full Resume
+            </a>
+          </div>
+          <div class="resume-col2"></div>
+          <div class="resume-col3">Download Resume</div>
         </div>
       </div>
     );
