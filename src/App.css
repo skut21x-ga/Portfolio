@@ -15,6 +15,14 @@ body {
   background-position: center;
 }
 
+.mywork-section {
+  padding-top: 20px;
+  margin-top: -50px;
+  padding-bottom: 40px;
+  margin-bottom: -10px;
+  transition: 2s;
+}
+
 .intro-overlay {
   background-color: black;
   height: 100px;
@@ -25,9 +33,25 @@ body {
   z-index: 2;
 }
 
+.portfolio-container {
+  padding: 13px 12px 10px 12px;
+  background-color: rgb(37, 37, 37);
+  transition: 0.5s;
+  border-radius: 10px;
+  width: 350px;
+  height: 275px;
+  font-family: Lato;
+  transition: 1s;
+  border: 1px solid black;
+}
+
+.portfolio-container:hover {
+  border: 1px solid rgb(105, 105, 105);
+  background-color: rgb(17, 17, 17);
+}
+
 .portfolio-container-main {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 20px 100px 0px 100px;
   row-gap: 45px;
   margin-top: 50px;
   display: grid;
@@ -36,7 +60,6 @@ body {
   grid-template-areas:
     "header header header "
     "footer footer footer  ";
-
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -94,7 +117,7 @@ body {
 .resume-button:hover {
   border: 1px solid rgba(37, 37, 37, 0.603);
   color: black;
-  background-color: white;
+  background-color: #84b1ff;
 }
 
 .resume-download-bottom {
@@ -210,10 +233,6 @@ h6 {
 }
 
 .portfolio-card {
-  border: white;
-  width: 350px;
-  height: 275px;
-  font-family: Lato;
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
   -moz-animation: fadeIn ease 5s;
@@ -222,10 +241,6 @@ h6 {
 }
 
 .portfolio-card2 {
-  border: white;
-  width: 350px;
-  height: 275px;
-  font-family: Lato;
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
   -moz-animation: fadeIn ease 6s;
@@ -234,10 +249,6 @@ h6 {
 }
 
 .portfolio-card3 {
-  border: white;
-  width: 350px;
-  height: 275px;
-  font-family: Lato;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
   -moz-animation: fadeIn ease 8s;
@@ -246,10 +257,6 @@ h6 {
 }
 
 .portfolio-card4 {
-  border: white;
-  width: 350px;
-  height: 275px;
-  font-family: Lato;
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
   -moz-animation: fadeIn ease 10s;
@@ -258,40 +265,42 @@ h6 {
 }
 
 .portfolio-card5 {
-  border: white;
-  width: 350px;
-  height: 275px;
-  font-family: Lato;
   animation: fadeIn ease 12s;
   -webkit-animation: fadeIn ease 12s;
   -moz-animation: fadeIn ease 12s;
   -o-animation: fadeIn ease 12s;
   -ms-animation: fadeIn ease 12s;
 }
-
+.portfolio-headline {
+  font-weight: 900;
+}
 .portfolio-image {
   width: 350px;
   transition: 1s;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  transition: 1s;
+  border: 1px solid rgb(37, 37, 37);
 }
-MAKE ME ENTIRE CARD */ .portfolio-image:hover {
-  box-shadow: 0px 0px 20px 1px rgba(247, 247, 247, 0.363);
+
+.portfolio-image:hover {
+  border: 1px solid rgb(105, 105, 105);
 }
+
 .portfolio-description {
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(187, 187, 187);
 }
 
 .portfolio-gitlink {
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(207, 207, 207);
 }
 
 .portfolio-thumbnail {
   background: white;
   height: 200px;
-
-  border-bottom: 2px solid black;
 }
 
 .fade-in-slower {
@@ -622,20 +631,6 @@ html {
 }
 
 @media only screen and (max-width: 1500px) {
-  .portfolio-card1,
-  .portfolio-card2,
-  .portfolio-card3,
-  .portfolio-card4,
-  .portfolio-card5 {
-    border: white;
-    width: 300px;
-    height: 275px;
-  }
-
-  .portfolio-image {
-    width: 300px;
-  }
-
   .portfolio-container-main {
     row-gap: 15px;
     margin-top: 50px;
@@ -659,19 +654,7 @@ html {
     margin-top: -170px;
     text-shadow: 5px 5px solid black;
   }
-  .portfolio-card1,
-  .portfolio-card2,
-  .portfolio-card3,
-  .portfolio-card4,
-  .portfolio-card5 {
-    border: white;
-    width: 250px;
-    height: 275px;
-  }
 
-  .portfolio-image {
-    width: 250px;
-  }
   .portfolio-container-main {
     row-gap: 45px;
     margin-top: 50px;

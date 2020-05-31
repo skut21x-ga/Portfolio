@@ -36,7 +36,7 @@ import WarBig from "./PortfolioGifs/War-BIG.gif";
 class MyWork extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mywork-section">
         <div className="portfolio-container-main">
           <div className="portfolio-card portfolio-container">
             <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
@@ -238,7 +238,7 @@ class MyWork extends React.Component {
                 className="portfolio-gitlink"
                 href="https://github.com/skut21x-ga/mcu-mern-project"
               >
-                <br></br>- GIT Repo (Front-End) /
+                <br></br>- GIT Repo (Front-End) /{" "}
               </a>
               <a
                 className="portfolio-gitlink"
