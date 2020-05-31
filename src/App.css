@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap");
 
+body {
+  background-color: black;
+  color: white;
+}
+
 .intro-background {
   display: flex;
   justify-content: center;
@@ -187,7 +192,7 @@ h4 {
   padding-top: 14pt;
   font-size: 12pt;
   padding-bottom: 4pt;
-  font-family: "Arial";
+  font-family: Lato;
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -198,7 +203,7 @@ h5 {
   padding-top: 12pt;
   font-size: 11pt;
   padding-bottom: 4pt;
-  font-family: "Arial";
+  font-family: Lato;
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -214,6 +219,7 @@ h6 {
   page-break-after: avoid;
   font-style: italic;
   orphans: 2;
+  font-family: Lato;
   widows: 2;
   text-align: left;
 }
@@ -228,13 +234,6 @@ h6 {
   -moz-animation: fadeIn ease 4s;
   -o-animation: fadeIn ease 4s;
   -ms-animation: fadeIn ease 4s;
-}
-
-.resume-aboutme {
-  width: 80vw;
-  text-align: center;
-  margin-bottom: -15px;
-  font-family: Lato;
 }
 
 .portfolio-card {
@@ -489,13 +488,77 @@ h6 {
   color: white;
   text-align: center;
   font-size: 15px;
+  font-family: Lato;
   margin-top: -10px;
 }
 
-body {
-  background-color: black;
-  color: white;
+.about-flex-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin-top: 40px;
 }
+
+.about-h4-left {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -40px;
+  text-decoration: underline;
+  font-family: Lato;
+}
+
+.about-h5-left {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 35px;
+  font-family: Lato;
+}
+
+.about-h4-right {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -45px;
+  text-decoration: underline;
+  font-family: Lato;
+}
+.about-h5-right {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-family: Lato;
+}
+
+.col1 {
+  width: 20%;
+  margin-left: 20px;
+}
+
+.col2 {
+  margin-left: -90px;
+  margin-right: -90px;
+}
+
+.col3 {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.col2,
+.about-wordcloud {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+}
+
+.resume-aboutme {
+  width: 80vw;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Roboto;
+}
+
 .navbar-component-container {
   background-color: black;
   color: white;
@@ -628,5 +691,11 @@ html {
   }
   .portfolio-container {
     row-gap: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-flex-grid {
+    display: block;
   }
 }
