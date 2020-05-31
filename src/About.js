@@ -1,10 +1,11 @@
 import React from "react";
 import cloud from "./assets/wordcloud-small.png";
+import { Link } from "react-router-dom";
 
 class About extends React.Component {
   render() {
     return (
-      <div className="resume-page">
+      <div className="about-page">
         <h4 className="resume-aboutme">
           I am a solution-oriented self-starter with a focus on software
           engineering and product management. <br></br>With my upbeat
@@ -106,13 +107,14 @@ class About extends React.Component {
           ></embed>
         </div>
         <div class="resume-flex-grid">
-          <div class="resume-col1">
-            <a href="https://docs.google.com/document/d/e/2PACX-1vTE8R3-TxsBTkFFZWSgknXhbybqLFWuE4fs-Iqi_MGr2FOvKosnC1EOIM8cXLwgdo6lu283zP5MdzJA/pub">
-              View Full Resume
-            </a>
-          </div>
-          <div class="resume-col2"></div>
-          <div class="resume-col3">Download Resume</div>
+          <Link to="/Resume">
+            <h5 className="resume-button">View Full Resume</h5>{" "}
+          </Link>
+
+          <p></p>
+          <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
+            <h5 className="resume-button">Download Resume (.PDF)</h5>
+          </a>
         </div>
       </div>
     );
