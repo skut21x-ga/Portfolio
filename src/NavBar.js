@@ -25,6 +25,9 @@ class NavBar extends React.Component {
             <a>Contact</a>
           </Link>
         </div>
+        <div className="faceboook-button">
+          <img className="facebook-graphic"></img>
+        </div>
       </div>
     );
   }
