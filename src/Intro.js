@@ -1,5 +1,6 @@
 import React from "react";
 import abstract from "./assets/abstract-small-wide.png";
+import SocialButtons from "./SocialButtons";
 
 class intro extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class intro extends React.Component {
         >
           <a className="intro-name">Scott Kutler</a>
           <a className="intro-subheading fade-in-slower">Full Stack Engineer</a>
-        </div>
+        </div>{" "}
       </div>
     );
   }

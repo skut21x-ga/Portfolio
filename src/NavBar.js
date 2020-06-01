@@ -24,7 +24,7 @@ class NavBar extends React.Component {
           <Link to="/Contact">
             <a className="navbar-component-links">Contact Me</a>
           </Link>
-        </div>
+        </div>{" "}
       </div>
     );
   }

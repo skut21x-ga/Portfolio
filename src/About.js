@@ -1,6 +1,8 @@
 import React from "react";
 import cloud from "./assets/wordcloud-small.png";
 import { Link } from "react-router-dom";
+// import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import WorkPanel from "./WorkPanel";
 
 class About extends React.Component {
   render() {
@@ -100,21 +102,20 @@ class About extends React.Component {
             </h5>{" "}
           </div>
         </div>
-        <div className="resume-embed">
-          <embed
-            className="resume-container"
-            src="https://docs.google.com/document/d/e/2PACX-1vQ9o2yhey4m_9x1YTb00GIEGoYXLaYmOwmFffO982cbdfpNyJD5am4NP6I0t0VZiqeactdeIlcxqMuD/pub?embedded=true"
-          ></embed>
-        </div>
-        <div class="resume-flex-grid">
-          <Link to="/Resume">
-            <h5 className="resume-button">View Full Resume</h5>{" "}
-          </Link>
+        <div className="WorkPanel-container">
+          {" "}
+          <h1 className="experience-header">Recent Experience</h1>
+          <WorkPanel></WorkPanel>{" "}
+          <div class="resume-flex-grid">
+            <Link to="/Resume">
+              <h5 className="resume-button">View Full Resume</h5>{" "}
+            </Link>
 
-          <p></p>
-          <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
-            <h5 className="resume-button">Download Resume (.PDF)</h5>
-          </a>
+            <p></p>
+            <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
+              <h5 className="resume-button">Download Resume (.PDF)</h5>
+            </a>
+          </div>
         </div>
       </div>
     );
