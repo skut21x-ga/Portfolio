@@ -1349,8 +1349,6 @@ html {
   background-color: transparent;
 }
 
-* {
+body {
   -webkit-overflow-scrolling: touch;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
