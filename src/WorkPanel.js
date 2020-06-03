@@ -62,7 +62,7 @@ export default function WorkPanel() {
   };
 
   return (
-    <div>
+    <div className="workcontainer-component">
       <ExpansionPanel
         square
         expanded={expanded === "panel1"}

@@ -34,17 +34,19 @@ class About extends React.Component {
             <WorkPanel></WorkPanel>{" "}
             <div class="resume-flex-grid">
               <Link to="/Resume">
-                <h5 className="resume-button">View Full Resume</h5>{" "}
+                <div className="FullResume">
+                  <h5 className="resume-button">View Full Resume</h5>{" "}
+                </div>
               </Link>
               <p></p>
               <br></br>
               <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
-                <h5 className="resume-button">Download Resume (.PDF)</h5>
+                <h5 className="resume-button">Download Resume (.PDF)</h5>{" "}
+                <a name="Skills"> </a>
               </a>{" "}
               <br></br> <br></br>
             </div>
           </div>{" "}
-          <a name="Skills"> </a>
           <div className="skills-spacer"></div>
           <br></br>
         </a>{" "}

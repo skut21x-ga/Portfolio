@@ -823,7 +823,7 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .skill-header {
@@ -985,10 +985,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.skills-spacer {
-  margin-top: 100px;
-}
-
 @media only screen and (max-width: 1500px) {
   .portfolio-container-main {
     row-gap: 15px;
@@ -1023,6 +1019,10 @@ html {
     font-size: 50x;
     line-height: 140px;
     margin-top: 80px;
+  }
+
+  .full-resume-content {
+    width: 70%;
   }
 
   .intro-subheading {
@@ -1105,7 +1105,7 @@ html {
   }
 
   .skills-spacer {
-    margin: 0;
+    margin: -30px;
   }
 
   .col3 {
@@ -1116,9 +1116,6 @@ html {
     font-size: 50px;
     margin-top: 140px;
     line-height: normal;
-  }
-  .nav-exp {
-    display: none;
   }
 
   .intro-subheading {
@@ -1160,10 +1157,10 @@ html {
   .intro-background-color {
     background-color: transparent;
   }
-
-  .WorkPanel-container {
-    display: none;
-  }
+  /*  */
+  /* .WorkPanel-container { */
+  /* display: none; */
+  /* } */
 
   .resume-flex-grid {
     flex-direction: column;
@@ -1186,6 +1183,24 @@ html {
     margin-bottom: 50px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .workcontainer-component {
+    width: 80vw;
+  }
+
+  .WorkPanel-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .full-resume-content {
+    width: 90%;
+  }
+}
+
 @media (max-width: 600px) {
   .non-mobile {
     display: none;
@@ -1246,6 +1261,14 @@ html {
   .portfolio-gitlink {
     font-size: 12px;
   }
+
+  .navbar-component-links {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: -5px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1278,10 +1301,10 @@ html {
   }
 
   .navbar-component-links {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: -5px;
   }
 }
