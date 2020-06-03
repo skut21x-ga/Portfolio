@@ -40,31 +40,6 @@ class MyWork extends React.Component {
         <div className="portfolio-container-main">
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
-              <a href="https://skut21x-ga.github.io/Mockup/index.html">
-                {" "}
-                <img className="portfolio-image" src={SnowMount}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/Mockup/index.html"
-              >
-                SnowMount Homepage
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/WebsiteMockup"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
               <a href="https://www.broapp.com">
                 <img className="portfolio-image" src={BRO}></img>
               </a>
@@ -78,39 +53,6 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              {" "}
-              <a href="https://beatlesapi.netlify.app/">
-                <img className="portfolio-image" src={Beatles}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://beatlesapi.netlify.app/"
-              >
-                The Beatles Lyrics Database (Front-End)
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, Material-UI, Storybook,
-                Axios
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/beatles-mern-project"
-              >
-                <br></br>- GIT Repo
-              </a>{" "}
-              /<a> </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://skut21x-ga.github.io/Beatles%20Storybook/index.html"
-              >
-                Component Library -
-              </a>
-            </div>
-          </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               {" "}
@@ -137,6 +79,31 @@ class MyWork extends React.Component {
             </div>
           </div>{" "}
           <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://skut21x-ga.github.io/Mockup/index.html">
+                {" "}
+                <img className="portfolio-image" src={SnowMount}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://skut21x-ga.github.io/Mockup/index.html"
+              >
+                SnowMount Homepage
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/WebsiteMockup"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
             <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
               <img className="portfolio-image" src={airbnb}></img>
             </a>
@@ -158,30 +125,6 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://cotripper.netlify.app/">
-                <img className="portfolio-image" src={CoTripper}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://cotripper.netlify.app/"
-              >
-                CoTripper Homepage
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, Python, Django, PostgreSQL
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/CoTrip"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://skut21x-ga.github.io/UI-Pattern/index.html">
@@ -328,6 +271,30 @@ class MyWork extends React.Component {
                 GIT Repo (Back-End) -
               </a>
             </div>
+          </div>{" "}
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://cotripper.netlify.app/">
+                <img className="portfolio-image" src={CoTripper}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://cotripper.netlify.app/"
+              >
+                CoTripper Homepage
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, React, Python, Django, PostgreSQL
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/CoTrip"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
           </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
@@ -401,6 +368,39 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              {" "}
+              <a href="https://beatlesapi.netlify.app/">
+                <img className="portfolio-image" src={Beatles}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://beatlesapi.netlify.app/"
+              >
+                The Beatles Lyrics Database (Front-End)
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, React, Material-UI, Storybook,
+                Axios
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/beatles-mern-project"
+              >
+                <br></br>- GIT Repo
+              </a>{" "}
+              /<a> </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://skut21x-ga.github.io/Beatles%20Storybook/index.html"
+              >
+                Component Library -
+              </a>
+            </div>
+          </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://github.com/skut21x-ga/beatles-api-repo">
