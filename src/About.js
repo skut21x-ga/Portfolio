@@ -21,16 +21,16 @@ class About extends React.Component {
               software engineering and product management. With my upbeat
               personality and ability to problem-solve under pressure, I can
               serve as a great addition to any team. I'm looking for a
-              team-focused and supportive work culture with employees that
-              actively work towards a positive social impact.
+              collaborative and supportive environment with employees that care
+              about and actively work towards positive social impact.
             </h4>{" "}
           </div>
         </div>
-        <a name="RecentExperience">
+        <a name="Experience">
           <br></br>{" "}
           <div className="WorkPanel-container">
             {" "}
-            <h1 className="experience-header">Recent Experience</h1>
+            <h1 className="experience-header">Experience</h1>
             <WorkPanel></WorkPanel>{" "}
             <div class="resume-flex-grid">
               <Link to="/Resume">
@@ -41,9 +41,12 @@ class About extends React.Component {
               <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
                 <h5 className="resume-button">Download Resume (.PDF)</h5>
               </a>{" "}
-              <a name="Skills"> </a> <br></br> <br></br>
+              <br></br> <br></br>
             </div>
           </div>{" "}
+          <a name="Skills"> </a>
+          <div className="skills-spacer"></div>
+          <br></br>
         </a>{" "}
         <h1 className="skill-header">Skills</h1>
         <div class="about-flex-grid">

@@ -101,7 +101,6 @@ table th {
   font-size: 12pt;
   font-family: "Lato";
   color: white;
-
   font-weight: 700;
 }
 .c8 {
@@ -344,17 +343,20 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 
 .full-resume-container {
   border: 0px solid black;
-  height: 100%;
+  margin-top: 75px;
+  margin-bottom: -500px;
+  padding-bottom: 0;
 }
+
 .full-resume-button {
   border: 0px solid black;
   display: flex;
@@ -362,9 +364,17 @@ body {
   margin: 15px;
 }
 
+.full-resume-button2 {
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin: -10px 0px -10px 0px;
+}
+
 .full-resume-content {
   border: 0px solid black;
-  height: 100%;
+  height: 600px;
   width: 50%;
   margin-left: -10px;
 }
@@ -376,7 +386,7 @@ body {
   justify-content: center;
   margin-bottom: 10px;
   z-index: 10;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -511,31 +521,31 @@ h6 {
 
 .resume-page {
   text-align: center;
-  height: 100vh;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 .about-page {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -10px;
 }
 
 .portfolio-card {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   margin: 15px 10px 10px 10px;
 }
 
@@ -582,10 +592,10 @@ h6 {
 
 .fade-in-slow {
   animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
 }
 
 .fade-in-fast {
@@ -605,7 +615,7 @@ h6 {
 
 .contact-myinfo {
   text-align: center;
-  color: rgb(133, 133, 133);
+  color: rgb(133, 206, 255);
 }
 
 .contact-form {
@@ -622,11 +632,11 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   margin-bottom: 60px;
 }
 
@@ -721,7 +731,7 @@ h6 {
   padding-top: 0px;
   padding-bottom: 30px;
   padding-left: 25px;
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
 .aboutme-box {
@@ -779,24 +789,24 @@ h6 {
 }
 
 .mywork-header {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: -20px;
 }
 
 .contact-header {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
@@ -805,11 +815,11 @@ h6 {
 }
 
 .experience-header {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
@@ -817,11 +827,11 @@ h6 {
 }
 
 .skill-header {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
@@ -830,17 +840,18 @@ h6 {
 }
 
 .aboutme-header {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
   font-family: Lato;
   margin-top: -20px;
   margin-bottom: -20px;
+  display: none;
 }
 
 .about-flex-grid {
@@ -913,7 +924,6 @@ h6 {
   flex-direction: row;
   justify-content: center;
   margin-top: 35px;
-
   margin-bottom: 50px;
 }
 
@@ -954,6 +964,7 @@ h6 {
   transition: 0.25s;
   font-weight: 800;
   font-family: Lato;
+  text-align: center;
 }
 
 .navbar-component-links:hover {
@@ -974,6 +985,10 @@ h1 {
 
 html {
   scroll-behavior: smooth;
+}
+
+.skills-spacer {
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -1000,7 +1015,7 @@ html {
       "footer footer    ";
   }
   .navbar-component-links {
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -1062,6 +1077,9 @@ html {
   .col3 {
     width: 30vw;
   }
+  .about-page {
+    margin-top: -40px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1073,7 +1091,7 @@ html {
     align-items: center;
   }
   .navbar-component-links {
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -1083,22 +1101,51 @@ html {
   }
 }
 @media only screen and (max-width: 800px) {
+  .col1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .skills-spacer {
+    margin: 0;
+  }
+
+  .col3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .intro-name {
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 140px;
     line-height: normal;
+  }
+  .nav-exp {
+    display: none;
+  }
+
+  .intro-subheading {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .about-page {
+    margin-top: 30px;
   }
 
   .intro-background {
     height: 100px;
   }
 
-  .navbar-component-links {
-    font-size: 10px;
+  .contact-header {
+    margin-top: -50px;
   }
-  .intro-subheading {
-    font-size: 20px;
-    margin-top: -80px;
+
+  .navbar-component-links {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .aboutme-header {
@@ -1109,9 +1156,9 @@ html {
   /* flex-direction: column; */
   /* align-items: center; */
   /* } */
-  .navbar-component-container {
-    display: none;
-  }
+  /* .navbar-component-container { */
+  /* display: none; */
+  /* } */
   .intro-background-color {
     background-color: transparent;
   }
@@ -1138,6 +1185,7 @@ html {
   .SmallContact {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 600px) {
@@ -1149,9 +1197,9 @@ html {
 @media (max-width: 500px) {
   .intro-name {
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 120px;
     line-height: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .intro-subheading {
     font-size: 10px;
@@ -1159,7 +1207,7 @@ html {
   }
 
   .intro-background-color {
-    height: 100px;
+    height: 80px;
   }
 
   .portfolio-container {
@@ -1172,6 +1220,14 @@ html {
     font-family: Lato;
     transition: 1s;
     border: 1px solid black;
+  }
+
+  .c23,
+  .c24 {
+    display: none;
+  }
+  .resume-aboutme {
+    margin-top: -20px;
   }
 
   .portfolio-image {
@@ -1206,17 +1262,56 @@ html {
     margin-right: 0;
     font-size: 9px;
   }
+
   .intro-name {
     font-size: 30px;
   }
   .intro-subheading {
     font-size: 10px;
-    margin-top: -40px;
+    margin-top: 0px;
   }
 
   .scottkutler {
     height: 191px;
     width: 163px;
+  }
+
+  .navbar-component-links {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 350) {
+  .col1 {
+    margin-left: 0;
+    font-size: 8px;
+  }
+  .col3 {
+    margin-right: 0;
+    font-size: 8px;
+  }
+  .intro-name {
+    font-size: 30px;
+  }
+  .intro-subheading {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+
+  .scottkutler {
+    height: 191px;
+    width: 163px;
+  }
+
+  .navbar-component-links {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 }
 .MuiPaper-root {
@@ -1225,10 +1320,4 @@ html {
 
 .intro-background-color {
   background-color: transparent;
-}
-
-html {
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
-  background-image: linear-gradient(120deg, #001842 0%, #020608 100%);
 }

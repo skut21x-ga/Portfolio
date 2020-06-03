@@ -14,8 +14,8 @@ class Contact extends React.Component {
         <div className="contact-form">
           {" "}
           <h5 className="contact-myinfo">
-            <a href="mailto:scott.kutler@gmail.com">scott.kutler@gmail.com</a> -{" "}
-            <a href="tel:469-387-0895">469.387.0895</a> -{" "}
+            <a href="mailto:scott.kutler@gmail.com">scott.kutler@gmail.com</a> |{" "}
+            <a href="tel:469-387-0895">469.387.0895</a> |{" "}
             <a href="https://maps.google.com/?q=Bethesda,%20Maryland">
               Bethesda, MD, USA
             </a>
@@ -33,8 +33,9 @@ class Contact extends React.Component {
 
         <div className="SmallContact">
           <h5 className="contact-myinfo">
-            <a href="mailto:scott.kutler@gmail.com">scott.kutler@gmail.com</a> -{" "}
-            <a href="tel:469-387-0895">469.387.0895</a> -{" "}
+            <a href="mailto:scott.kutler@gmail.com">scott.kutler@gmail.com</a>{" "}
+            <br></br>
+            <a href="tel:469-387-0895">469.387.0895</a> <br></br>
             <a href="https://maps.google.com/?q=Bethesda,%20Maryland">
               Bethesda, MD, USA
             </a>

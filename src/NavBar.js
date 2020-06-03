@@ -6,29 +6,29 @@ class NavBar extends React.Component {
     return (
       <div className="NavBar">
         <div className="navbar-component-container">
-          <div className="navbar-component-links">
-            <a href="#Home">
+          <div className="navbar-component-links nav-home">
+            <a href="/#Home">
               <a className="navbar-component-links">Home</a>
             </a>
           </div>{" "}
-          <div className="navbar-component-links">
-            <a href="#RecentExperience">
+          <div className="navbar-component-links nav-exp">
+            <a href="/#Experience">
               <a className="navbar-component-links">Experience</a>
             </a>{" "}
           </div>{" "}
-          <div className="navbar-component-links">
-            <a href="#Skills">
+          <div className="navbar-component-links nav-skills">
+            <a href="/#Skills">
               <a className="navbar-component-links">Skills</a>
             </a>{" "}
           </div>{" "}
-          <div className="navbar-component-links">
-            <a href="#Portfolio">
-              <a className="navbar-component-links">Work Portofolio</a>
+          <div className="navbar-component-links nav-portfolio">
+            <a href="/#Portfolio">
+              <a className="navbar-component-links">Portfolio</a>
             </a>
           </div>{" "}
-          <div className="navbar-component-links">
-            <a href="#Contact">
-              <a className="navbar-component-links">Contact Me</a>
+          <div className="navbar-component-links nav-contact">
+            <a href="/#Contact">
+              <a className="navbar-component-links">Contact</a>
             </a>{" "}
           </div>
         </div>
