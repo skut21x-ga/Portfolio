@@ -103,7 +103,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
               <img className="portfolio-image" src={airbnb}></img>
             </a>
@@ -125,7 +125,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container ">
             <div className="portfolio-image-container">
               <a href="https://skut21x-ga.github.io/UI-Pattern/index.html">
                 <img className="portfolio-image" src={HarryPoter}></img>
@@ -149,7 +149,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               <a href="https://beverage-database.netlify.app/">
                 <img className="portfolio-image" src={Cocktails}></img>
@@ -240,7 +240,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               {" "}
               <a href="https://mcudatabase.netlify.app/">
@@ -322,13 +322,13 @@ class MyWork extends React.Component {
           </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
-              <a href="https://git.generalassemb.ly/skut21x/guess-the-number">
+              <a href="https://github.com/skut21x-ga/guess-the-number">
                 <img className="portfolio-image" src={GuessNumber}></img>
               </a>
             </div>
             <div>
               <a
-                href="https://git.generalassemb.ly/skut21x/guess-the-number"
+                href="https://github.com/skut21x-ga/guess-the-number"
                 className="portfolio-headline"
               >
                 Python: Random Number Game
@@ -338,7 +338,7 @@ class MyWork extends React.Component {
               </a>
               <a
                 className="portfolio-gitlink"
-                href="https://git.generalassemb.ly/skut21x/guess-the-number"
+                href="https://github.com/skut21x-ga/guess-the-number"
               >
                 <br></br>- GIT Repo -
               </a>
@@ -346,14 +346,14 @@ class MyWork extends React.Component {
           </div>
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
-              <a href="https://git.generalassemb.ly/skut21x/state-capitals">
+              <a href="https://github.com/skut21x-ga/state-capitals-game">
                 <img className="portfolio-image" src={StateCapital}></img>
               </a>
             </div>
             <div>
               <a
                 className="portfolio-headline"
-                href="https://git.generalassemb.ly/skut21x/state-capitals"
+                href="https://github.com/skut21x-ga/state-capitals-game"
               >
                 Python: State Capitals Game
               </a>
@@ -362,13 +362,13 @@ class MyWork extends React.Component {
               </a>
               <a
                 className="portfolio-gitlink"
-                href="https://git.generalassemb.ly/skut21x/state-capitals"
+                href="https://github.com/skut21x-ga/state-capitals-game"
               >
                 <br></br>- GIT Repo -
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               {" "}
               <a href="https://beatlesapi.netlify.app/">

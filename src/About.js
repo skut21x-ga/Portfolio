@@ -1,5 +1,5 @@
 import React from "react";
-import cloud from "./assets/TranspCloud.png";
+import cloud from "./assets/Wordcloud.png";
 import scottkutler from "./assets/scottkutler.png";
 import { Link } from "react-router-dom";
 // import ExpansionPanel from "@material-ui/core/ExpansionPanel";
