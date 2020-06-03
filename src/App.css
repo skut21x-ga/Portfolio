@@ -149,7 +149,7 @@ table th {
 .c23 {
   font-size: 25px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 .c24 {
   font-size: 20px;
@@ -536,42 +536,13 @@ h6 {
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
+  margin: 15px 10px 10px 10px;
 }
 
-.portfolio-card2 {
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-  -moz-animation: fadeIn ease 6s;
-  -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s;
-}
-
-.portfolio-card3 {
-  animation: fadeIn ease 8s;
-  -webkit-animation: fadeIn ease 8s;
-  -moz-animation: fadeIn ease 8s;
-  -o-animation: fadeIn ease 8s;
-  -ms-animation: fadeIn ease 8s;
-}
-
-.portfolio-card4 {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
-}
-
-.portfolio-card5 {
-  animation: fadeIn ease 12s;
-  -webkit-animation: fadeIn ease 12s;
-  -moz-animation: fadeIn ease 12s;
-  -o-animation: fadeIn ease 12s;
-  -ms-animation: fadeIn ease 12s;
-}
 .portfolio-headline {
   font-weight: 900;
 }
+
 .portfolio-image {
   width: 350px;
   transition: 1s;
@@ -712,17 +683,20 @@ h6 {
     opacity: 1;
   }
 }
+
+.SmallContact {
+  display: none;
+}
 .intro-name {
   height: 518px;
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 900;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 0;
-  font-size: 50px;
+  font-size: 90px;
   line-height: 50px;
-  margin-bottom: -30px;
 }
 
 .intro-subheading {
@@ -731,11 +705,10 @@ h6 {
   color: #ffffff;
   font-family: Lato;
   font-weight: 700;
-  letter-spacing: 15.33px;
+  letter-spacing: 12px;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 30px;
-
   padding: 0;
   z-index: 1;
   font-size: 20px;
@@ -756,23 +729,24 @@ h6 {
   display: flex;
   flex-direction: row;
   width: 45vw;
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 .resume-aboutme {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-family: Lato;
   font-size: 18px;
   text-align: left;
   width: 25vw;
-  margin-top: 15px;
+  margin-top: -8px;
   line-height: 22px;
 }
 
 .scottkutler {
   margin-right: 35px;
-  width: 15vw;
+  width: 218px;
+  height: 255px;
   border: 5px solid black;
   margin-left: 10px;
 }
@@ -814,7 +788,7 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: -20px;
 }
 
@@ -828,7 +802,7 @@ h6 {
   text-align: center;
   font-size: 25px;
   margin-top: 40px;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
 }
 
 .experience-header {
@@ -840,7 +814,7 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .skill-header {
@@ -852,8 +826,8 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 5px;
-  margin-bottom: -10px;
+  margin-top: 20px;
+  margin-bottom: -15px;
 }
 
 .aboutme-header {
@@ -866,7 +840,7 @@ h6 {
   text-align: center;
   font-size: 25px;
   font-family: Lato;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: -20px;
 }
 
@@ -1002,55 +976,203 @@ html {
       "footer footer footer   ";
   }
 }
-@media only screen and (max-width: 1000px) {
-  .intro-name {
-    font-size: 175px;
-    line-height: 140px;
-    margin-top: 75px;
-  }
-
-  .intro-subheading {
-    font-size: 15px;
-    margin-top: -170px;
-    text-shadow: 5px 5px solid black;
-  }
-
+@media only screen and (max-width: 1300px) {
   .portfolio-container-main {
     row-gap: 45px;
     margin-top: 50px;
     display: grid;
     grid-template-rows: 6;
-    grid-template-columns: 3;
+    grid-template-columns: 2;
     grid-template-areas:
       "header header    "
       "footer footer    ";
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   .intro-name {
-    font-size: 125px;
-    width: 100vw;
-    line-height: 120px;
-    margin-top: 50px;
-    margin-bottom: -90px;
+    font-size: 50x;
+    line-height: 140px;
+    margin-top: 10px;
   }
 
   .intro-subheading {
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-top: -10px;
     text-shadow: 5px 5px solid black;
   }
+
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .c23 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .c24 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .resume-aboutme {
+    text-align: center;
+    width: 80%;
+  }
+  .scottkutler {
+    margin: 5px 0px 5px 0px;
+  }
+  .col2 {
+    display: none;
+  }
+  .col1 {
+    width: 30vw;
+  }
+  .col3 {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
   .portfolio-container-main {
-    row-gap: 0px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-container {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .intro-name {
+    font-size: 50px;
+  }
+  .intro-subheading {
+    font-size: 20px;
+    margin-top: -40px;
+  }
+  /* .navbar-component-container { */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* } */
+  .navbar-component-container {
+    display: none;
+  }
+  .intro-background-color {
+    background-color: transparent;
+  }
+  .navbar-component-links {
+    margin: 5px;
+    font-size: 20px;
+  }
+
+  .WorkPanel-container {
+    display: none;
+  }
+
+  .resume-flex-grid {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-myinfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    display: none;
+  }
+
+  .SmallContact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .contactscript {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-name {
+    font-size: 40px;
+  }
+  .intro-subheading {
+    font-size: 10px;
+    margin-top: -40px;
+    letter-spacing: 0.5em;
+  }
+
+  .portfolio-container {
+    padding: 5px 5px 55px 5px;
+    background-color: rgb(66, 66, 66);
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    font-family: Lato;
+    transition: 1s;
+    border: 1px solid black;
+  }
+
+  .portfolio-image {
+    width: 300px;
+    transition: 1s;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    transition: 1s;
+    border: 1px solid rgb(37, 37, 37);
+  }
+  .portfolio-description {
+    font-size: 12px;
+  }
+
+  .portfolio-gitlink {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 400px) {
   .about-flex-grid {
-    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col1 {
+    margin-left: 0;
+  }
+  .col3 {
+    margin-right: 0;
+  }
+  .intro-name {
+    font-size: 30px;
+  }
+  .intro-subheading {
+    font-size: 10px;
+    margin-top: -40px;
+  }
+
+  .scottkutler {
+    height: 191px;
+    width: 163px;
   }
 }
-
 .MuiPaper-root {
   background-color: trans;
+}
+
+.intro-background-color {
+  background-color: transparent;
 }

@@ -22,7 +22,7 @@ class About extends React.Component {
               personality and ability to problem-solve under pressure, I can
               serve as a great addition to any team. I'm looking for a
               team-focused and supportive work culture with employees that
-              actively work towards apositive social impact.
+              actively work towards a positive social impact.
             </h4>{" "}
           </div>
         </div>
@@ -36,6 +36,7 @@ class About extends React.Component {
             </Link>
 
             <p></p>
+            <br></br>
             <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
               <h5 className="resume-button">Download Resume (.PDF)</h5>
             </a>

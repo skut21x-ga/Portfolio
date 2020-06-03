@@ -39,28 +39,6 @@ class MyWork extends React.Component {
       <div className="mywork-section">
         <div className="portfolio-container-main">
           <div className="portfolio-card portfolio-container">
-            <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
-              <img className="portfolio-image" src={airbnb}></img>
-            </a>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/airbnb/lib/index.html"
-              >
-                Travel Website Mockup
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://git.generalassemb.ly/skut21x/css-airbnb"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://skut21x-ga.github.io/Mockup/index.html">
                 {" "}
@@ -99,156 +77,8 @@ class MyWork extends React.Component {
                 <br></br>Utilized: HTML, CSS, Webflow CMS
               </a>
             </div>
-          </div>
+          </div>{" "}
           <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://skut21x-ga.github.io/UI-Pattern/index.html">
-                <img className="portfolio-image" src={HarryPoter}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/UI-Pattern/index.html"
-              >
-                Harry Potter Character Database
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, API
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              {" "}
-              <a href="https://skut21x-ga.github.io/Simon/index.html">
-                <img className="portfolio-image" src={SIMON}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/Simon/index.html"
-              >
-                SIMON Javascript Game{" "}
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Javascript
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/SimonMemory/"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card2 portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://beverage-database.netlify.app/">
-                <img className="portfolio-image" src={Cocktails}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://beverage-database.netlify.app/"
-              >
-                Beverage Database
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, API
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card2 portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://github.com/skut21x-ga/WAR">
-                <img className="portfolio-image" src={War}></img>
-              </a>
-            </div>
-            <div>
-              <a className="portfolio-headline">Javascript WAR Game</a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, Javascript
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/WAR"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card2 portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="http://skut21x-ga.github.io/Storybook/index.html">
-                <img className="portfolio-image" src={ComponentLibrary}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="http://skut21x-ga.github.io/Storybook/index.html"
-              >
-                UI Component Library
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Storybook Framework
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/component-library-project/"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card2 portfolio-container">
-            <div className="portfolio-image-container">
-              {" "}
-              <a href="https://mcudatabase.netlify.app/">
-                <img className="portfolio-image" src={MCU}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://mcudatabase.netlify.app/"
-              >
-                MCU Character Database
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Mongoose, React, Express,
-                MaterialUI
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/mcu-mern-project"
-              >
-                <br></br>- GIT Repo (Front-End) /{" "}
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/mcu-api"
-              >
-                GIT Repo (Back-End) -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card3 portfolio-container">
             <div className="portfolio-image-container">
               {" "}
               <a href="https://beatlesapi.netlify.app/">
@@ -281,55 +111,54 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card3 portfolio-container">
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
-              <a href="https://github.com/skut21x-ga/beatles-api-repo">
-                <img className="portfolio-image" src={BeatlesBackend}></img>
+              {" "}
+              <a href="https://skut21x-ga.github.io/Simon/index.html">
+                <img className="portfolio-image" src={SIMON}></img>
               </a>
             </div>
             <div>
               <a
                 className="portfolio-headline"
-                href="https://github.com/skut21x-ga/beatles-api-repo"
+                href="https://skut21x-ga.github.io/Simon/index.html"
               >
-                The Beatles Lyrics Database (Back-End)
+                SIMON Javascript Game{" "}
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: Mongoose, Express, Passport, JWT, Node.JS
+                <br></br>Utilized: HTML, CSS, Javascript
               </a>
               <a
                 className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/beatles-api-repo"
-              >
-                <br></br> - GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card3 portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://nationalparksdb.netlify.app/">
-                <img className="portfolio-image" src={NationalParks}></img>
-              </a>
-            </div>
-            <div>
-              <a
-                className="portfolio-headline"
-                href="https://nationalparksdb.netlify.app/"
-              >
-                National Parks Database
-              </a>
-              <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, React-Router, API
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/react-router-lab"
+                href="https://github.com/skut21x-ga/SimonMemory/"
               >
                 <br></br>- GIT Repo -
               </a>
             </div>
-          </div>
-          <div className="portfolio-card3 portfolio-container">
+          </div>{" "}
+          <div className="portfolio-card portfolio-container">
+            <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
+              <img className="portfolio-image" src={airbnb}></img>
+            </a>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://skut21x-ga.github.io/airbnb/lib/index.html"
+              >
+                Travel Website Mockup
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://git.generalassemb.ly/skut21x/css-airbnb"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>{" "}
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://cotripper.netlify.app/">
                 <img className="portfolio-image" src={CoTripper}></img>
@@ -353,7 +182,154 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card4 portfolio-container">
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://skut21x-ga.github.io/UI-Pattern/index.html">
+                <img className="portfolio-image" src={HarryPoter}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://skut21x-ga.github.io/UI-Pattern/index.html"
+              >
+                Harry Potter Character Database
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, API
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://beverage-database.netlify.app/">
+                <img className="portfolio-image" src={Cocktails}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://beverage-database.netlify.app/"
+              >
+                Beverage Database
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, React, API
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://github.com/skut21x-ga/WAR">
+                <img className="portfolio-image" src={War}></img>
+              </a>
+            </div>
+            <div>
+              <a className="portfolio-headline">Javascript WAR Game</a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, Javascript
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/WAR"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://nationalparksdb.netlify.app/">
+                <img className="portfolio-image" src={NationalParks}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://nationalparksdb.netlify.app/"
+              >
+                National Parks Database
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, React, React-Router, API
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/react-router-lab"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="http://skut21x-ga.github.io/Storybook/index.html">
+                <img className="portfolio-image" src={ComponentLibrary}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="http://skut21x-ga.github.io/Storybook/index.html"
+              >
+                UI Component Library
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, Storybook Framework
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/component-library-project/"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              {" "}
+              <a href="https://mcudatabase.netlify.app/">
+                <img className="portfolio-image" src={MCU}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://mcudatabase.netlify.app/"
+              >
+                MCU Character Database
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: HTML, CSS, Mongoose, React, Express,
+                MaterialUI
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/mcu-mern-project"
+              >
+                <br></br>- GIT Repo (Front-End) /{" "}
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/mcu-api"
+              >
+                GIT Repo (Back-End) -
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://github.com/skut21x-ga/PythonAddressBook">
                 <img className="portfolio-image" src={Python}></img>
@@ -377,7 +353,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card4 portfolio-container">
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://git.generalassemb.ly/skut21x/guess-the-number">
                 <img className="portfolio-image" src={GuessNumber}></img>
@@ -401,7 +377,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card4 portfolio-container">
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://git.generalassemb.ly/skut21x/state-capitals">
                 <img className="portfolio-image" src={StateCapital}></img>
@@ -424,8 +400,32 @@ class MyWork extends React.Component {
                 <br></br>- GIT Repo -
               </a>
             </div>
+          </div>{" "}
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              <a href="https://github.com/skut21x-ga/beatles-api-repo">
+                <img className="portfolio-image" src={BeatlesBackend}></img>
+              </a>
+            </div>
+            <div>
+              <a
+                className="portfolio-headline"
+                href="https://github.com/skut21x-ga/beatles-api-repo"
+              >
+                The Beatles Lyrics Database (Back-End)
+              </a>
+              <a className="portfolio-description">
+                <br></br>Utilized: Mongoose, Express, Passport, JWT, Node.JS
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/skut21x-ga/beatles-api-repo"
+              >
+                <br></br> - GIT Repo -
+              </a>
+            </div>
           </div>
-          <div className="portfolio-card4 portfolio-container">
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <img className="portfolio-image" src={Trello}></img>
             </div>
