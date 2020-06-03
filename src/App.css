@@ -349,7 +349,9 @@ body {
   -o-animation: fadeIn ease 0.5s;
   -ms-animation: fadeIn ease 0.5s;
 }
-
+.expansion-spacing {
+  height: 8px;
+}
 .full-resume-container {
   border: 0px solid black;
   margin-top: 75px;
@@ -1096,6 +1098,12 @@ html {
   }
 }
 @media only screen and (max-width: 800px) {
+  .c9,
+  .c7,
+  .c13,
+  .c1 {
+    font-size: 14px;
+  }
   .col1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -1196,6 +1204,12 @@ html {
 
   .contact-form {
     display: none;
+  }
+  .c9,
+  .c7,
+  .c13,
+  .c1 {
+    font-size: 12px;
   }
 }
 

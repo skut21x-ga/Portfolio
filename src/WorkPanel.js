@@ -16,7 +16,8 @@ const ExpansionPanel = withStyles({
       display: "none",
     },
     "&$expanded": {
-      marginBottom: "5px",
+      marginBottom: "0px",
+      marginTop: "0px",
     },
   },
   expanded: {},
@@ -34,7 +35,7 @@ const ExpansionPanelSummary = withStyles({
   },
   content: {
     "&$expanded": {
-      margin: "5px ",
+      margin: "0px ",
     },
   },
   expanded: {},
@@ -111,6 +112,7 @@ export default function WorkPanel() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <div className="expansion-spacing"></div>{" "}
       <ExpansionPanel
         square
         expanded={expanded === "panel2"}
@@ -204,6 +206,7 @@ export default function WorkPanel() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <div className="expansion-spacing"></div>
       <ExpansionPanel
         square
         expanded={expanded === "panel3"}
