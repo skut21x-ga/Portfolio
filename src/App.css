@@ -376,7 +376,6 @@ body {
   border: 0px solid black;
   height: 600px;
   width: 50%;
-  margin-left: -10px;
 }
 
 .Social-container {
@@ -810,7 +809,7 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: -10px;
 }
 
@@ -858,7 +857,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   width: 60vw;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .about-h4-left {
@@ -1013,6 +1012,36 @@ html {
     margin-left: 15px;
     margin-right: 15px;
   }
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutme-content {
+    background-color: rgb(62, 126, 179);
+    margin-top: 30px;
+    padding-top: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  .c23 {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .c24 {
+    width: 100%;
+    text-align: center;
+  }
+  .resume-aboutme {
+    text-align: center;
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .intro-name {
@@ -1031,38 +1060,6 @@ html {
     text-shadow: 5px 5px solid black;
   }
 
-  .aboutme-box {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .aboutme-content {
-    background-color: rgb(62, 126, 179);
-    margin-top: 30px;
-    padding-top: 0px;
-    padding: 0px;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-  }
-
-  .c23 {
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .c24 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .resume-aboutme {
-    text-align: center;
-    width: 80%;
-  }
   .scottkutler {
     margin: 5px 0px 5px 0px;
   }
@@ -1105,7 +1102,7 @@ html {
   }
 
   .skills-spacer {
-    margin: -30px;
+    margin-top: -30px;
   }
 
   .col3 {
@@ -1168,23 +1165,6 @@ html {
     align-items: center;
   }
 
-  .contact-myinfo {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-form {
-    display: none;
-  }
-
-  .SmallContact {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
   .workcontainer-component {
     width: 80vw;
   }
@@ -1202,10 +1182,19 @@ html {
 }
 
 @media (max-width: 600px) {
+  .SmallContact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
   .non-mobile {
     display: none;
   }
   .contactscript {
+    display: none;
+  }
+
+  .contact-form {
     display: none;
   }
 }
