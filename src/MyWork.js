@@ -440,7 +440,8 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-        </div>
+        </div>{" "}
+        <a name="Contact"></a>
       </div>
     );
   }

@@ -344,11 +344,11 @@ body {
   justify-items: center;
   align-items: center;
   text-align: center;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 .full-resume-container {
@@ -512,18 +512,18 @@ h6 {
 .resume-page {
   text-align: center;
   height: 100vh;
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 .about-page {
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -531,11 +531,11 @@ h6 {
 }
 
 .portfolio-card {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   margin: 15px 10px 10px 10px;
 }
 
@@ -582,10 +582,10 @@ h6 {
 
 .fade-in-slow {
   animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 .fade-in-fast {
@@ -622,11 +622,11 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   margin-bottom: 60px;
 }
 
@@ -779,11 +779,11 @@ h6 {
 }
 
 .mywork-header {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
@@ -792,24 +792,24 @@ h6 {
 }
 
 .contact-header {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: -10px;
 }
 
 .experience-header {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
@@ -817,29 +817,29 @@ h6 {
 }
 
 .skill-header {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  margin-top: 20px;
+  margin-top: -30px;
   margin-bottom: -15px;
 }
 
 .aboutme-header {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
   font-family: Lato;
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: -20px;
 }
 
@@ -902,7 +902,7 @@ h6 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 65%;
+  width: 70%;
 }
 
 .col2 {
@@ -999,12 +999,17 @@ html {
       "header header    "
       "footer footer    ";
   }
+  .navbar-component-links {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .intro-name {
     font-size: 50x;
     line-height: 140px;
-    margin-top: 10px;
+    margin-top: 80px;
   }
 
   .intro-subheading {
@@ -1016,17 +1021,26 @@ html {
   .aboutme-box {
     display: flex;
     flex-direction: column;
-    width: 45vw;
-    margin-top: 28px;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .aboutme-content {
+    background-color: rgb(62, 126, 179);
+    margin-top: 30px;
+    padding-top: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .c23 {
     margin-top: 10px;
     text-align: center;
   }
+
   .c24 {
     width: 100%;
     text-align: center;
@@ -1058,6 +1072,11 @@ html {
     justify-content: center;
     align-items: center;
   }
+  .navbar-component-links {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
   .portfolio-container {
     margin-bottom: 30px;
@@ -1066,14 +1085,25 @@ html {
 @media only screen and (max-width: 800px) {
   .intro-name {
     font-size: 50px;
+    margin-top: 20px;
+    line-height: normal;
+  }
+
+  .intro-background {
+    height: 100px;
+  }
+
+  .navbar-component-links {
+    font-size: 10px;
   }
   .intro-subheading {
     font-size: 20px;
-    margin-top: -40px;
+    margin-top: -80px;
   }
 
   .aboutme-header {
-    margin-top: -40px;
+    margin-top: -70px;
+    margin-bottom: -10px;
   }
   /* .navbar-component-container { */
   /* flex-direction: column; */
@@ -1084,10 +1114,6 @@ html {
   }
   .intro-background-color {
     background-color: transparent;
-  }
-  .navbar-component-links {
-    margin: 5px;
-    font-size: 20px;
   }
 
   .WorkPanel-container {
@@ -1123,11 +1149,17 @@ html {
 @media (max-width: 500px) {
   .intro-name {
     font-size: 40px;
+    margin-top: 50px;
+    line-height: normal;
+    margin-bottom: 10px;
   }
   .intro-subheading {
     font-size: 10px;
-    margin-top: -40px;
     letter-spacing: 0.5em;
+  }
+
+  .intro-background-color {
+    height: 100px;
   }
 
   .portfolio-container {
@@ -1161,16 +1193,18 @@ html {
 
 @media (max-width: 400px) {
   .about-flex-grid {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
   .col1 {
     margin-left: 0;
+    font-size: 9px;
   }
   .col3 {
     margin-right: 0;
+    font-size: 9px;
   }
   .intro-name {
     font-size: 30px;
