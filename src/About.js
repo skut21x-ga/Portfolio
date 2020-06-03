@@ -1,5 +1,6 @@
 import React from "react";
-import cloud from "./assets/wordcloud-small.png";
+import cloud from "./assets/TranspCloud.png";
+import scottkutler from "./assets/scottkutler.png";
 import { Link } from "react-router-dom";
 // import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import WorkPanel from "./WorkPanel";
@@ -8,12 +9,39 @@ class About extends React.Component {
   render() {
     return (
       <div className="about-page">
-        <h4 className="resume-aboutme">
-          I am a solution-oriented self-starter with a focus on software
-          engineering and product management. <br></br>With my upbeat
-          personality and ability to problem-solve under pressure, I can serve
-          as a great addition to any team.
-        </h4>
+        <div class="aboutme-content">
+          <div className="aboutme-box">
+            <img className="scottkutler" src={scottkutler} />
+            <h4 className="resume-aboutme">
+              <div className="c23">
+                Scott Kutler<br></br>
+              </div>
+              <div className="c24"> Full-Stack Engineer & Product Manager</div>
+              <br></br>I am a solution-oriented self-starter with a focus on
+              software engineering and product management. With my upbeat
+              personality and ability to problem-solve under pressure, I can
+              serve as a great addition to any team. I'm looking for a
+              team-focused and supportive work culture with employees that
+              actively work towards apositive social impact.
+            </h4>{" "}
+          </div>
+        </div>
+        <div className="WorkPanel-container">
+          {" "}
+          <h1 className="experience-header">Recent Experience</h1>
+          <WorkPanel></WorkPanel>{" "}
+          <div class="resume-flex-grid">
+            <Link to="/Resume">
+              <h5 className="resume-button">View Full Resume</h5>{" "}
+            </Link>
+
+            <p></p>
+            <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
+              <h5 className="resume-button">Download Resume (.PDF)</h5>
+            </a>
+          </div>
+        </div>{" "}
+        <h1 className="skill-header">My Skill Set</h1>
         <div class="about-flex-grid">
           <div class="col1">
             <h4 className="about-h4-left">Front-End</h4>
@@ -100,21 +128,6 @@ class About extends React.Component {
               Social Media / Branding
               <br />
             </h5>{" "}
-          </div>
-        </div>
-        <div className="WorkPanel-container">
-          {" "}
-          <h1 className="experience-header">Recent Experience</h1>
-          <WorkPanel></WorkPanel>{" "}
-          <div class="resume-flex-grid">
-            <Link to="/Resume">
-              <h5 className="resume-button">View Full Resume</h5>{" "}
-            </Link>
-
-            <p></p>
-            <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
-              <h5 className="resume-button">Download Resume (.PDF)</h5>
-            </a>
           </div>
         </div>
       </div>

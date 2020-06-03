@@ -7,12 +7,9 @@ class intro extends React.Component {
     return (
       <div className="intro-background-color fade-in-fast">
         <div className="intro-overlay"></div>
-        <div
-          className="intro-background fade-in-slow"
-          style={{ backgroundImage: `url(${abstract})` }}
-        >
+        <div className="intro-background fade-in-fast">
           <a className="intro-name">Scott Kutler</a>
-          <a className="intro-subheading fade-in-slower">Full Stack Engineer</a>
+          <a className="intro-subheading fade-in-fast">Full Stack Engineer</a>
         </div>{" "}
       </div>
     );

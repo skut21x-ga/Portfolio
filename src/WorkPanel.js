@@ -16,7 +16,7 @@ const ExpansionPanel = withStyles({
       display: "none",
     },
     "&$expanded": {
-      margin: "auto",
+      marginBottom: "5px",
     },
   },
   expanded: {},
@@ -24,7 +24,7 @@ const ExpansionPanel = withStyles({
 
 const ExpansionPanelSummary = withStyles({
   root: {
-    backgroundColor: "#1b53a7",
+    backgroundColor: "#002870",
     borderBottom: "3px solid black",
     marginBottom: -1,
     minHeight: 56,
@@ -34,7 +34,7 @@ const ExpansionPanelSummary = withStyles({
   },
   content: {
     "&$expanded": {
-      margin: "12px 0",
+      margin: "5px ",
     },
   },
   expanded: {},
@@ -48,7 +48,7 @@ const styles = {
 
 const ExpansionPanelDetails = withStyles((theme) => ({
   root: {
-    backgroundColor: "#003366",
+    backgroundColor: "#325b84",
     borderBottom: "3px solid black",
     padding: theme.spacing(2),
   },
@@ -74,9 +74,12 @@ export default function WorkPanel() {
         >
           <Typography>
             <p class="c4">
+              {" "}
+              <span class="c20"> </span>
               <span class="c9">
                 Software Engineering Fellow | General Assembly
               </span>
+              <span class="c22">📚</span>{" "}
             </p>
           </Typography>
         </ExpansionPanelSummary>
@@ -119,7 +122,10 @@ export default function WorkPanel() {
         >
           <Typography>
             <p class="c4">
+              {" "}
+              <span class="c20"> </span>
               <span class="c9">Founder and Product Manager | Brotech LLC</span>
+              <span class="c21"> 📱 </span>
             </p>
           </Typography>
         </ExpansionPanelSummary>
@@ -209,7 +215,10 @@ export default function WorkPanel() {
         >
           <Typography>
             <p class="c4">
-              <span class="c9">Certified Apple Technician | Apple Inc.</span>
+              {" "}
+              <span class="c20"> </span>
+              <span class="c9">Certified Apple Technician | Apple Inc. </span>
+              <span class="c21"> 👨‍💻 </span>
             </p>
           </Typography>
         </ExpansionPanelSummary>

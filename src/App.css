@@ -127,6 +127,38 @@ table th {
   vertical-align: baseline;
   font-style: italic;
 }
+.c20 {
+  width: 0;
+  height: 0;
+  margin-right: 15px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+
+  border-top: 8px solid rgba(204, 204, 204, 0.829);
+}
+.c21 {
+  font-size: 25px;
+  margin-left: 5px;
+}
+.c22 {
+  margin-top: 4px;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.c23 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.c24 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(233, 233, 233);
+  margin-bottom: -10px;
+}
+
 .c12 {
   background-color: #000000;
   max-width: 432pt;
@@ -254,7 +286,8 @@ h6 {
 /*  */
 
 body {
-  background-color: black;
+  /* background: rgb(16, 53, 93); */
+  background-image: linear-gradient(120deg, #001842 0%, #020608 100%);
   color: white;
 }
 
@@ -266,6 +299,7 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
+  height: 150px;
 }
 
 .WorkPanel-container {
@@ -280,19 +314,9 @@ body {
   transition: 2s;
 }
 
-.intro-overlay {
-  background-color: black;
-  height: 100px;
-  opacity: 0.025;
-  position: absolute;
-  width: 100vw;
-  height: 600px;
-  z-index: 2;
-}
-
 .portfolio-container {
   padding: 13px 12px 10px 12px;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(66, 66, 66);
   transition: 0.5s;
   border-radius: 10px;
   width: 350px;
@@ -308,7 +332,7 @@ body {
 }
 
 .portfolio-container-main {
-  margin: 20px 100px 0px 100px;
+  margin: 20px 90px 0px 90px;
   row-gap: 45px;
   margin-top: 50px;
   display: grid;
@@ -689,34 +713,68 @@ h6 {
   }
 }
 .intro-name {
-  width: 1094px;
   height: 518px;
   color: #ffffff;
   font-family: Montserrat;
-  font-size: 259px;
   font-weight: 900;
-  line-height: 200px;
   text-transform: uppercase;
   margin-top: 50px;
   padding: 0;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: -30px;
 }
 
 .intro-subheading {
-  width: 960px;
   height: 32px;
   opacity: 0.95;
-
   color: #ffffff;
   font-family: Lato;
-  font-size: 30px;
   font-weight: 700;
   letter-spacing: 15.33px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-top: -100px;
-  margin-bottom: 100px;
+  margin-top: 30px;
+
   padding: 0;
   z-index: 1;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-shadow: 5px solid black;
+}
+
+.aboutme-content {
+  background-color: rgb(62, 126, 179);
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+.aboutme-box {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  margin-top: 25px;
+}
+
+.resume-aboutme {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Lato;
+  font-size: 18px;
+  text-align: left;
+  width: 25vw;
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+.scottkutler {
+  margin-right: 35px;
+  width: 15vw;
+  border: 5px solid black;
+  margin-left: 10px;
 }
 
 .resume-container {
@@ -727,7 +785,12 @@ h6 {
   z-index: -1;
   height: 1000px;
   width: 800px;
-  background-color: black;
+  background: rgb(16, 53, 93);
+  background: radial-gradient(
+    circle,
+    rgba(16, 53, 93, 1) 11%,
+    rgba(1, 18, 59, 1) 74%
+  );
   border: 0px solid white;
 }
 
@@ -750,7 +813,7 @@ h6 {
   -ms-animation: fadeIn ease 5s;
   color: #a4c2f4;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 40px;
   margin-bottom: -20px;
 }
@@ -763,7 +826,7 @@ h6 {
   -ms-animation: fadeIn ease 5s;
   color: #a4c2f4;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 40px;
   margin-bottom: 0px;
 }
@@ -776,8 +839,21 @@ h6 {
   -ms-animation: fadeIn ease 5s;
   color: #a4c2f4;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 15px;
+}
+
+.skill-header {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  color: #a4c2f4;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 .aboutme-header {
@@ -788,7 +864,7 @@ h6 {
   -ms-animation: fadeIn ease 5s;
   color: #a4c2f4;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Lato;
   margin-top: 10px;
   margin-bottom: -20px;
@@ -797,7 +873,7 @@ h6 {
 .about-flex-grid {
   display: flex;
   justify-content: space-between;
-  width: 70vw;
+  width: 60vw;
   margin-top: 40px;
 }
 
@@ -834,17 +910,17 @@ h6 {
 
 .col1 {
   width: 20%;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .col2 {
-  margin-left: -90px;
-  margin-right: -90px;
+  margin-left: -120px;
+  margin-right: -120px;
 }
 
 .col3 {
   width: 20%;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .col2,
@@ -853,7 +929,7 @@ h6 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 70%;
+  width: 65%;
 }
 
 .col2 {
@@ -864,18 +940,12 @@ h6 {
   flex-direction: row;
   justify-content: center;
   margin-top: 35px;
+
   margin-bottom: 50px;
 }
 
-.resume-aboutme {
-  width: 80vw;
-  text-align: center;
-  margin-bottom: 15px;
-  font-family: Lato;
-}
-
 .navbar-component-container {
-  background-color: black;
+  background-color: transparent;
   color: #a4c2f4;
   text-align: center;
   margin: 20px auto 20px auto;
@@ -918,18 +988,6 @@ h1 {
 
 html {
   scroll-behavior: smooth;
-}
-
-.intro-name {
-  font-size: 200px;
-  line-height: 180px;
-  margin-bottom: -30px;
-}
-
-.intro-subheading {
-  font-size: 25px;
-  margin-bottom: 50px;
-  text-shadow: 5px solid black;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -994,5 +1052,5 @@ html {
 }
 
 .MuiPaper-root {
-  background-color: black;
+  background-color: trans;
 }
