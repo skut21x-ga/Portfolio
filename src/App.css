@@ -934,10 +934,8 @@ h6 {
   justify-content: center;
   align-items: center;
   display: inline-block;
-  vertical-align: top;
   background-color: black;
   z-index: 100;
-  overflow: hidden;
 }
 
 .navbar-component-container {
