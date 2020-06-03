@@ -1181,7 +1181,8 @@ html {
   background-color: transparent;
 }
 
-body {
+html {
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background-image: linear-gradient(120deg, #001842 0%, #020608 100%);
 }
