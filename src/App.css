@@ -939,6 +939,7 @@ h6 {
   display: inline-block;
   background-color: black;
   z-index: 100;
+  float: none;
 }
 
 .navbar-component-container {
