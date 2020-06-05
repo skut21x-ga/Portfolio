@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* padding: env(safe-area-inset-top) env(safe-area-inset-right) */
-  /* env(safe-area-inset-bottom) env(safe-area-inset-left); */
+  margin: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
   width: 100vw;
   background-image: linear-gradient(120deg, #001842 0%, #020608 100%);
 }
