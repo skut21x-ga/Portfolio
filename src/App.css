@@ -1122,14 +1122,6 @@ html {
   }
 }
 @media only screen and (max-width: 900px) {
-  .aboutme-box {
-    display: flex;
-    flex-direction: column;
-    width: 99.9vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
   .c9,
   .c7,
   .c13,
@@ -1218,6 +1210,17 @@ html {
   }
   .full-resume-content {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 99.9vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
