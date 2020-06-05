@@ -740,6 +740,7 @@ h6 {
   flex-direction: row;
   width: 45vw;
   margin-top: 28px;
+  transition: 0.5s;
 }
 
 .resume-aboutme {
@@ -751,6 +752,7 @@ h6 {
   width: 25vw;
   margin-top: -8px;
   line-height: 22px;
+  transition: 1s;
 }
 
 .scottkutler {
@@ -1009,6 +1011,10 @@ html {
       "header header    "
       "footer footer    ";
   }
+
+  .scottkutler {
+    margin-right: 10px;
+  }
   .navbar-component-links {
     font-size: 15px;
     margin-left: 15px;
@@ -1017,7 +1023,7 @@ html {
   .aboutme-box {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 50vw;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1042,7 +1048,7 @@ html {
   }
   .resume-aboutme {
     text-align: center;
-    width: 60%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1077,6 +1083,15 @@ html {
   .about-page {
     margin-top: -40px;
   }
+
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 60.9vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1096,8 +1111,25 @@ html {
   .portfolio-container {
     margin-bottom: 30px;
   }
+
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 60.9vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 800px) {
+  .aboutme-box {
+    display: flex;
+    flex-direction: column;
+    width: 99.9vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .c9,
   .c7,
   .c13,
