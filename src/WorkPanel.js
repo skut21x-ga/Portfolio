@@ -94,7 +94,7 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp;Participated in a Full-Stack Software Engineering
+                &bull; &nbsp;Graduated from a Full-Stack Software Engineering
                 course with over 500+ hours of hands-on Computer Science
                 training in web and software development
               </span>
@@ -123,7 +123,7 @@ export default function WorkPanel() {
             <p class="c4">
               {" "}
               <span class="c20"> </span>
-              <span class="c9">Founder and Product Manager | Brotech LLC</span>
+              <span class="c9">Founder & Product Manager | Brotech LLC</span>
               <span class="c21"> 📱 </span>
             </p>
           </Typography>

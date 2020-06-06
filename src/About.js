@@ -16,7 +16,10 @@ class About extends React.Component {
               <div className="c23">
                 Scott Kutler<br></br>
               </div>
-              <div className="c24"> Full-Stack Engineer & Product Manager</div>
+              <div className="c24">
+                {" "}
+                Full-Stack Software Develper & Product Manager
+              </div>
               <br></br>I am a solution-oriented self-starter with a focus on
               software engineering and product management. With my upbeat
               personality and ability to problem-solve under pressure, I can
