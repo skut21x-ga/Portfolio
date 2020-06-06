@@ -10,7 +10,7 @@ class intro extends React.Component {
         <div className="intro-background fade-in-fast">
           <a className="intro-name">Scott Kutler</a>
           <div className="intro-subheading fade-in-fast">
-            Full Stack Engineer
+            Software Developer
           </div>
         </div>{" "}
       </div>

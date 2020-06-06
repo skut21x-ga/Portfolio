@@ -1071,7 +1071,8 @@ html {
 
   .intro-subheading {
     font-size: 15px;
-    margin-top: -10px;
+    letter-spacing: 10px;
+    margin-top: -25px;
     text-shadow: 5px 5px solid black;
   }
 
@@ -1155,8 +1156,9 @@ html {
   }
 
   .intro-subheading {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0px;
+    font-family: Lato;
   }
 
   .about-page {
