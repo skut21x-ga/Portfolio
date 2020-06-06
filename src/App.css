@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Roboto&display=swap");
 @import url("https://themes.googleusercontent.com/fonts/css?kit=xTOoZr6X-i3kNg7pYrzMss5-x8zqu-667uHWljev_4A");
 
 /* code for professional experience: */
@@ -17,7 +17,7 @@ table th {
   vertical-align: baseline;
   text-decoration-skip-ink: none;
   font-size: 12pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
 }
 .c0 {
@@ -27,7 +27,7 @@ table th {
   vertical-align: baseline;
   text-decoration-skip-ink: none;
   font-size: 13pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
 }
 .c3 {
@@ -35,7 +35,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
 }
 .c1 {
@@ -43,7 +43,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10.5pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
   color: white;
   text-align: left;
@@ -62,7 +62,7 @@ table th {
   font-weight: 700;
   text-decoration: none;
   font-size: 12pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
   text-align: center;
   color: white;
@@ -72,7 +72,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 11pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-style: normal;
   color: white;
 }
@@ -99,21 +99,21 @@ table th {
   align-items: center;
 }
 .c7 {
-  font-size: 12pt;
-  font-family: "Lato";
+  font-size: 10pt;
+  font-family: "Roboto";
   color: white;
   font-weight: 700;
 }
 .c8 {
   font-size: 10.5pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   color: white;
 
   font-weight: 400;
 }
 .c11 {
   font-size: 10pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-weight: 400;
   color: white;
 }
@@ -287,7 +287,12 @@ h6 {
 
 body {
   /* background: rgb(16, 53, 93); */
-  background-image: linear-gradient(120deg, #001842 0%, #020608 100%);
+  background-image: linear-gradient(
+    140deg,
+    #012056 0%,
+    #081e45 50%,
+    #000000 100%
+  );
   color: white;
 }
 
@@ -321,7 +326,7 @@ body {
   border-radius: 10px;
   width: 350px;
   height: 275px;
-  font-family: Lato;
+  font-family: Roboto;
   transition: 1s;
   border: 1px solid black;
 }
@@ -332,7 +337,7 @@ body {
 }
 
 .portfolio-container-main {
-  margin: 20px 90px 0px 90px;
+  margin: 0px 90px 0px 90px;
   row-gap: 45px;
   margin-top: 50px;
   display: grid;
@@ -343,12 +348,7 @@ body {
     "footer footer footer  ";
   justify-items: center;
   align-items: center;
-  text-align: center;
-  animation: fadeIn ease 0.5s;
-  -webkit-animation: fadeIn ease 0.5s;
-  -moz-animation: fadeIn ease 0.5s;
-  -o-animation: fadeIn ease 0.5s;
-  -ms-animation: fadeIn ease 0.5s;
+  text-align: left;
 }
 .expansion-spacing {
   height: 8px;
@@ -455,7 +455,7 @@ h1 {
   padding-top: 20pt;
   font-size: 20pt;
   padding-bottom: 6pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -466,7 +466,7 @@ h2 {
   padding-top: 18pt;
   font-size: 16pt;
   padding-bottom: 6pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -478,7 +478,7 @@ h3 {
   color: #434343;
   font-size: 14pt;
   padding-bottom: 4pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -489,7 +489,7 @@ h4 {
   padding-top: 14pt;
   font-size: 12pt;
   padding-bottom: 4pt;
-  font-family: Lato;
+  font-family: Roboto;
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -500,7 +500,7 @@ h5 {
   padding-top: 12pt;
   font-size: 11pt;
   padding-bottom: 4pt;
-  font-family: Lato;
+  font-family: Roboto;
   line-height: 1.15;
   page-break-after: avoid;
   orphans: 2;
@@ -511,12 +511,12 @@ h6 {
   padding-top: 12pt;
   font-size: 11pt;
   padding-bottom: 4pt;
-  font-family: "Lato";
+  font-family: "Roboto";
   line-height: 1.15;
   page-break-after: avoid;
   font-style: italic;
   orphans: 2;
-  font-family: Lato;
+  font-family: Roboto;
   widows: 2;
   text-align: left;
 }
@@ -553,6 +553,7 @@ h6 {
 
 .portfolio-headline {
   font-weight: 900;
+  text-align: left;
 }
 
 .portfolio-image {
@@ -572,11 +573,14 @@ h6 {
   font-style: italic;
   font-size: 13px;
   color: rgb(187, 187, 187);
+  text-align: left;
+  margin-left: 40px;
 }
 
 .portfolio-gitlink {
   font-size: 13px;
   color: rgb(207, 207, 207);
+  text-align: left;
 }
 
 .portfolio-thumbnail {
@@ -715,7 +719,7 @@ h6 {
   height: 32px;
   opacity: 0.95;
   color: #ffffff;
-  font-family: Lato;
+  font-family: Roboto;
   font-weight: 700;
   letter-spacing: 12px;
   text-transform: uppercase;
@@ -747,7 +751,7 @@ h6 {
 .resume-aboutme {
   text-align: center;
   margin-bottom: 0px;
-  font-family: Lato;
+  font-family: Roboto;
   font-size: 18px;
   text-align: left;
   width: 25vw;
@@ -852,7 +856,7 @@ h6 {
   color: #a4c2f4;
   text-align: center;
   font-size: 25px;
-  font-family: Lato;
+  font-family: Roboto;
   margin-top: -20px;
   margin-bottom: -20px;
   display: none;
@@ -870,7 +874,7 @@ h6 {
   margin-top: -10px;
   margin-bottom: -40px;
   text-decoration: underline;
-  font-family: Lato;
+  font-family: Roboto;
   color: #a4c2f4;
 }
 
@@ -878,7 +882,7 @@ h6 {
   text-align: center;
   line-height: 20px;
   margin-bottom: 35px;
-  font-family: Lato;
+  font-family: Roboto;
 }
 
 .about-h4-right {
@@ -887,13 +891,13 @@ h6 {
   margin-bottom: -45px;
   color: #a4c2f4;
   text-decoration: underline;
-  font-family: Lato;
+  font-family: Roboto;
 }
 .about-h5-right {
   text-align: center;
   line-height: 20px;
   margin-bottom: 15px;
-  font-family: Lato;
+  font-family: Roboto;
 }
 
 .col1 {
@@ -949,7 +953,7 @@ h6 {
   text-align: center;
   margin: 20px auto 20px auto;
   text-decoration: none;
-  font-family: Lato;
+  font-family: Roboto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -966,7 +970,7 @@ h6 {
   margin-right: 30px;
   transition: 0.25s;
   font-weight: 800;
-  font-family: Lato;
+  font-family: Roboto;
   text-align: center;
 }
 
@@ -982,7 +986,7 @@ a {
 
 h3,
 h1 {
-  font-family: Lato;
+  font-family: Roboto;
   color: #a4c2f4;
 }
 
@@ -1208,7 +1212,6 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
   }
   .full-resume-content {
     width: 90%;
@@ -1223,6 +1226,14 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .workcontainer-component {
+    width: 100vw;
+  }
+
+  .WorkPanel-container {
+    width: 100vw;
   }
 }
 
@@ -1273,7 +1284,7 @@ html {
     border-radius: 10px;
     width: 300px;
     height: 200px;
-    font-family: Lato;
+    font-family: Roboto;
     transition: 1s;
     border: 1px solid black;
   }

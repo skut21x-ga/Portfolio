@@ -49,7 +49,7 @@ class MyWork extends React.Component {
                 The Bro App Homepage & Blog
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Webflow CMS
+                <br></br>HTML, CSS, Webflow CMS
               </a>
             </div>
           </div>{" "}
@@ -68,7 +68,7 @@ class MyWork extends React.Component {
                 SIMON Javascript Game{" "}
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Javascript
+                <br></br>HTML, CSS, Javascript
               </a>
               <a
                 className="portfolio-gitlink"
@@ -93,7 +93,7 @@ class MyWork extends React.Component {
                 SnowMount Homepage
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS
+                <br></br>HTML, CSS
               </a>
               <a
                 className="portfolio-gitlink"
@@ -115,7 +115,7 @@ class MyWork extends React.Component {
                 Travel Website Mockup
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS
+                <br></br>HTML, CSS
               </a>
               <a
                 className="portfolio-gitlink"
@@ -139,7 +139,7 @@ class MyWork extends React.Component {
                 Harry Potter Character Database
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, API
+                <br></br>HTML, CSS, API
               </a>
               <a
                 className="portfolio-gitlink"
@@ -163,7 +163,7 @@ class MyWork extends React.Component {
                 Beverage Database
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, API
+                <br></br>HTML, CSS, React, API
               </a>
               <a
                 className="portfolio-gitlink"
@@ -182,7 +182,7 @@ class MyWork extends React.Component {
             <div>
               <a className="portfolio-headline">Javascript WAR Game</a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, Javascript
+                <br></br>HTML, Javascript
               </a>
               <a
                 className="portfolio-gitlink"
@@ -206,7 +206,7 @@ class MyWork extends React.Component {
                 National Parks Database
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, React-Router, API
+                <br></br>HTML, CSS, React, React-Router, API
               </a>
               <a
                 className="portfolio-gitlink"
@@ -230,7 +230,7 @@ class MyWork extends React.Component {
                 UI Component Library
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Storybook Framework
+                <br></br>HTML, CSS, Storybook Framework
               </a>
               <a
                 className="portfolio-gitlink"
@@ -255,8 +255,7 @@ class MyWork extends React.Component {
                 MCU Character Database
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, Mongoose, React, Express,
-                MaterialUI
+                <br></br>HTML, CSS, Mongoose, React, Express, MaterialUI
               </a>
               <a
                 className="portfolio-gitlink"
@@ -286,7 +285,7 @@ class MyWork extends React.Component {
                 CoTripper Homepage
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, Python, Django, PostgreSQL
+                <br></br>HTML, CSS, React, Python, Django, PostgreSQL
               </a>
               <a
                 className="portfolio-gitlink"
@@ -310,7 +309,7 @@ class MyWork extends React.Component {
                 Python: Address Book
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: Python, SQL, and PeeWee
+                <br></br>Python, SQL, and PeeWee
               </a>
               <a
                 className="portfolio-gitlink"
@@ -334,7 +333,7 @@ class MyWork extends React.Component {
                 Python: Random Number Game
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: Python
+                <br></br>Python
               </a>
               <a
                 className="portfolio-gitlink"
@@ -358,7 +357,7 @@ class MyWork extends React.Component {
                 Python: State Capitals Game
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: Python
+                <br></br>Python
               </a>
               <a
                 className="portfolio-gitlink"
@@ -383,8 +382,7 @@ class MyWork extends React.Component {
                 The Beatles Lyrics Database (Front-End)
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: HTML, CSS, React, Material-UI, Storybook,
-                Axios
+                <br></br>HTML, CSS, React, Material-UI, Storybook, Axios
               </a>
               <a
                 className="portfolio-gitlink"
@@ -415,7 +413,7 @@ class MyWork extends React.Component {
                 The Beatles Lyrics Database (Back-End)
               </a>
               <a className="portfolio-description">
-                <br></br>Utilized: Mongoose, Express, Passport, JWT, Node.JS
+                <br></br>Mongoose, Express, Passport, JWT, Node.JS
               </a>
               <a
                 className="portfolio-gitlink"

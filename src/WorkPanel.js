@@ -87,10 +87,7 @@ export default function WorkPanel() {
         <ExpansionPanelDetails>
           <Typography>
             <p class="c4">
-              <span class="c7">Washington DC / Remote</span>
-            </p>
-            <p class="c4">
-              <span class="c13">February 2020 &ndash; April 2020</span>
+              <span class="c7">February 2020 &ndash; April 2020</span>
             </p>
             <p class="c4">
               <span class="c13">&nbsp;</span>
@@ -135,10 +132,7 @@ export default function WorkPanel() {
           <Typography>
             {" "}
             <p class="c4">
-              <span class="c7 c15">Bethesda, MD</span>
-            </p>
-            <p class="c4">
-              <span class="c13">October 2015 &ndash; Present</span>
+              <span class="c7">October 2015 &ndash; Present</span>
             </p>
             <p class="c4 c10">
               <span class="c13"></span>
@@ -172,10 +166,10 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp; Operated initiatives in market research (ie.
-                conducting focus groups, managing social media, and competitive
-                analysis) to generate quarterly metrics reports and leverage
-                findings to prioritize product development efforts
+                &bull; &nbsp; Performed market research (ie. conducting focus
+                groups, managing social media, and competitive analysis) to
+                generate quarterly metrics reports and leverage findings to
+                prioritize product development efforts
               </span>
             </p>
             <p class="c6">
@@ -194,8 +188,8 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c8">
-                &bull; &nbsp; Monitored and managed production systems in a
-                cloud-based deployment environment (AWS: Lambda, S3, EC2, RDS)
+                &bull; &nbsp; Operated and maintained production deployments in
+                cloud based environments (AWS: Lambda, S3, EC2, RDS)
               </span>
               <span class="c11">&nbsp;</span>
               <span class="c3">&nbsp;</span>
@@ -228,11 +222,7 @@ export default function WorkPanel() {
         <ExpansionPanelDetails>
           <Typography>
             <p class="c4">
-              <span class="c7">&nbsp;</span>
-              <span class="c7 c15">Bethesda, MD</span>
-            </p>
-            <p class="c4">
-              <span class="c13">August 2008 &ndash; November 2014 </span>
+              <span class="c7">August 2008 &ndash; November 2014 </span>
             </p>
             <p class="c5">
               <span class="c13"></span>
@@ -251,14 +241,14 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp; Maintained knowledge of Apple&rsquo;s products,
+                &bull; &nbsp;Maintained knowledge of Apple&rsquo;s products,
                 software, and services to provide guidance and support to
                 customers{" "}
               </span>
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp; Recognized for having one of the highest customer
+                &bull; &nbsp;Recognized for having one of the highest customer
                 satisfaction ratings (NPS) among all technicians in the market
               </span>
             </p>

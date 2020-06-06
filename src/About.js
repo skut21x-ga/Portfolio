@@ -33,17 +33,17 @@ class About extends React.Component {
             <h1 className="experience-header">Experience</h1>
             <WorkPanel></WorkPanel>{" "}
             <div class="resume-flex-grid">
-              <Link to="/Resume">
+              <a href="https://raw.githubusercontent.com/skut21x-ga/portfolio/a92fcaec4c848aa67b0a71f60b2c3d5928e61be3/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
                 <div className="FullResume">
                   <h5 className="resume-button">View Full Resume</h5>{" "}
                 </div>
-              </Link>
+              </a>
               <p></p>
               <br></br>
-              <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
-                <h5 className="resume-button">Download Resume (.PDF)</h5>{" "}
-                <a name="Skills"> </a>
-              </a>{" "}
+              {/*         <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
+                <h5 className="resume-button">Download Resume (.PDF)</h5>{" "} */}
+              <a name="Skills"> </a>
+              {/*        </a>{" "} */}
               <br></br> <br></br>
             </div>
           </div>{" "}
