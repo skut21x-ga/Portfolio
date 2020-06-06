@@ -44,7 +44,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={BRO}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a className="portfolio-headline" href="https://www.broapp.com">
                 The Bro App Homepage & Blog
               </a>
@@ -60,7 +60,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={SIMON}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://skut21x-ga.github.io/Simon/index.html"
@@ -85,7 +85,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={SnowMount}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://skut21x-ga.github.io/Mockup/index.html"
@@ -107,7 +107,7 @@ class MyWork extends React.Component {
             <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
               <img className="portfolio-image" src={airbnb}></img>
             </a>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://skut21x-ga.github.io/airbnb/lib/index.html"
@@ -131,7 +131,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={HarryPoter}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://skut21x-ga.github.io/UI-Pattern/index.html"
@@ -155,7 +155,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={Cocktails}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://beverage-database.netlify.app/"
@@ -179,7 +179,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={War}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a className="portfolio-headline">Javascript WAR Game</a>
               <a className="portfolio-description">
                 <br></br>HTML, Javascript
@@ -198,7 +198,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={NationalParks}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://nationalparksdb.netlify.app/"
@@ -222,7 +222,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={ComponentLibrary}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="http://skut21x-ga.github.io/Storybook/index.html"
@@ -247,7 +247,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={MCU}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://mcudatabase.netlify.app/"
@@ -277,7 +277,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={CoTripper}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://cotripper.netlify.app/"
@@ -301,7 +301,8 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={Python}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
+              {" "}
               <a
                 href="https://github.com/skut21x-ga/PythonAddressBook"
                 className="portfolio-headline"
@@ -325,7 +326,8 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={GuessNumber}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
+              {" "}
               <a
                 href="https://github.com/skut21x-ga/guess-the-number"
                 className="portfolio-headline"
@@ -349,7 +351,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={StateCapital}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://github.com/skut21x-ga/state-capitals-game"
@@ -374,7 +376,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={Beatles}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://beatlesapi.netlify.app/"
@@ -405,7 +407,7 @@ class MyWork extends React.Component {
                 <img className="portfolio-image" src={BeatlesBackend}></img>
               </a>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a
                 className="portfolio-headline"
                 href="https://github.com/skut21x-ga/beatles-api-repo"
@@ -427,7 +429,7 @@ class MyWork extends React.Component {
             <div className="portfolio-image-container">
               <img className="portfolio-image" src={Trello}></img>
             </div>
-            <div>
+            <div className="portfolio-text">
               <a className="portfolio-headline">Project Management</a>
               <a className="portfolio-description"></a>
               <a
