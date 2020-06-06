@@ -166,8 +166,8 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp; Facilitated daily meetings with the team&rsquo;s
-                Scrum Master, Developers, Designers, and QA Team
+                &bull; &nbsp; Held daily meetings with the team&rsquo;s Scrum
+                Master, Developers, Designers, and QA Team
               </span>
             </p>
             <p class="c6">
@@ -187,9 +187,9 @@ export default function WorkPanel() {
             </p>
             <p class="c6">
               <span class="c1">
-                &bull; &nbsp; Used TestFlight, Google Play Dev. Console, Bash,
-                VS Code, and other tools to manage development / deployment
-                lifecycles
+                &bull; &nbsp; Managed development and deployment life-cycles
+                using TestFlight, Google Play Dev. Console, Bash, VS Code, and
+                other tools.
               </span>
             </p>
             <p class="c6">
