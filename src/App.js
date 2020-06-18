@@ -15,6 +15,9 @@ function initializeReactGA() {
   ReactGA.initialize("UA-169923260-1");
   ReactGA.pageview("/homepage");
 }
+
+initializeReactGA();
+
 class App extends React.Component {
   constructor(props) {
     super(props);
