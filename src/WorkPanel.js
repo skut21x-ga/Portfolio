@@ -118,7 +118,7 @@ export default function WorkPanel() {
               {" "}
               <span class="c20"> </span>
               <span class="c9">Founder & Product Manager | Brotech LLC</span>
-              <span img class="c21">
+              <span img alt="phone" class="c21">
                 📱
               </span>
             </p>

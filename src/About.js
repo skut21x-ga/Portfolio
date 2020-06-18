@@ -10,7 +10,11 @@ class About extends React.Component {
       <div className="about-page">
         <div class="aboutme-content">
           <div className="aboutme-box">
-            <img className="scottkutler" src={scottkutler} />
+            <img
+              alt="scottkutler-photo"
+              className="scottkutler"
+              src={scottkutler}
+            />
             <h4 className="resume-aboutme">
               <div className="c23">
                 Scott Kutler<br></br>
@@ -86,7 +90,7 @@ class About extends React.Component {
             </h5>
           </div>
           <div class="col2 about-wordcloud">
-            <img className="about-wordcloud" src={cloud} />
+            <img alt="wordcloud" className="about-wordcloud" src={cloud} />
           </div>
           <div class="col3">
             <h4 className="about-h4-right">Backend</h4>
