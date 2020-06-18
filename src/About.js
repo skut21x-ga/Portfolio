@@ -45,47 +45,48 @@ class About extends React.Component {
                 </div>
               </a>
               <p></p>
-              <br></br>
               <a name="Skills"> </a>
               <br></br> <br></br>
             </div>
-          </div>{" "}
+          </div>
           <div className="skills-spacer"></div>
-          <br></br>
         </a>{" "}
         <h1 className="skill-header">Skills</h1>
         <div class="about-flex-grid">
           <div class="col1">
             <h4 className="about-h4-left">Front-End</h4>
             <h5 className="about-h5-left">
-              HTML <br />
-              CSS <br />
-              Javascript <br />
-              React <br />
-              Responsive Design <br />
-              Storybook
+              <span className="skills-bullet">• </span> HTML <br />
+              <span className="skills-bullet">• </span> CSS <br />
+              <span className="skills-bullet">• </span> Javascript <br />
+              <span className="skills-bullet">• </span> React <br />
+              <span className="skills-bullet">• </span> Responsive Design <br />{" "}
+              <span className="skills-bullet">• </span> Storybook
             </h5>
             <h4 className="about-h4-left">Deployment</h4>
             <h5 className="about-h5-left">
-              Git / Github <br />
-              Heroku <br />
-              Bitbucket <br />
-              Netlify <br />
-              Amazon AWS <br />
-              Firebase <br />
+              <span className="skills-bullet">• </span> Git / Github <br />
+              <span className="skills-bullet">• </span> Heroku <br />
+              <span className="skills-bullet">• </span> Bitbucket <br />
+              <span className="skills-bullet">• </span> Netlify <br />
+              <span className="skills-bullet">• </span> Amazon AWS <br />
+              <span className="skills-bullet">• </span> Firebase <br />
             </h5>
             <h4 className="about-h4-left">Design</h4>
             <h5 className="about-h5-left">
-              Final Cut Pro (Certified)
+              <span className="skills-bullet">• </span> Final Cut Pro
+              (Certified)
               <br />
-              Adobe Photoshop <br />
-              Adobe InDesign
+              <span className="skills-bullet">• </span> Adobe Photoshop <br />
+              <span className="skills-bullet">• </span> Adobe InDesign
               <br />
-              Adobe XD
+              <span className="skills-bullet">• </span> Adobe XD
               <br />
-              Adobe Premiere
+              <span className="skills-bullet">• </span> Adobe Premiere
               <br />
-              Adobe Muse
+              <span className="skills-bullet">• </span> Adobe Muse
+              <br />
+              <span className="skills-bullet">• </span> Adobe AfterEffects
               <br />
             </h5>
           </div>
@@ -95,49 +96,44 @@ class About extends React.Component {
           <div class="col3">
             <h4 className="about-h4-right">Backend</h4>
             <h5 className="about-h5-right">
-              Express.js
+              <span className="skills-bullet">• </span> Express.js
               <br />
-              Node.js
+              <span className="skills-bullet">• </span> Node.js
               <br />
-              MongoDB
+              <span className="skills-bullet">• </span> MongoDB
               <br />
-              Python
+              <span className="skills-bullet">• </span> Python
               <br />
-              RESTful API
+              <span className="skills-bullet">• </span> RESTful API
               <br />
-              Django
+              <span className="skills-bullet">• </span> Django
               <br />
-              SQL
+              <span className="skills-bullet">• </span> SQL
               <br />
-              PostgreSQL
+              <span className="skills-bullet">• </span> PostgreSQL
               <br />
-              Peewee
-              <br />
-            </h5>
+            </h5>{" "}
             <h4 className="about-h4-right">Project Management</h4>
             <h5 className="about-h5-right">
-              Rapid Prototyping
+              <span className="skills-bullet">• </span> Rapid Prototyping
               <br />
-              Google Analytics <br />
-              Google Play Console
+              <span className="skills-bullet">• </span> Google Analytics <br />
+              <span className="skills-bullet">• </span> Google Play
               <br />
-              App Store Connect
-              <br /> Jira
-              <br />
-              Trello <br />
-            </h5>{" "}
+              <span className="skills-bullet">• </span> App Store Connect
+              <br /> <span className="skills-bullet">• </span> Jira & Trello
+            </h5>
             <h4 className="about-h4-right">Misc. Skills</h4>
             <h5 className="about-h5-right">
-              Unix
+              <span className="skills-bullet">• </span> Unix
               <br />
-              VS Code <br />
-              MS Office (Certified)
+              <span className="skills-bullet">• </span> VS Code <br />
+              <span className="skills-bullet">• </span> MS Office (Certified)
               <br />
-              Wordpress
+              <span className="skills-bullet">• </span> Wordpress CMS
               <br />
-              Webflow CMS
-              <br />
-              Social Media / Branding
+              <span className="skills-bullet">• </span> Webflow CMS <br />
+              <span className="skills-bullet">• </span> Social Media
               <br />
             </h5>{" "}
           </div>

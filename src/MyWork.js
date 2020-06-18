@@ -152,7 +152,7 @@ class MyWork extends React.Component {
                 className="portfolio-headline"
                 href="https://skut21x-ga.github.io/UI-Pattern/index.html"
               >
-                Harry Potter Character Database
+                Harry Potter Character DB
               </a>
               <a className="portfolio-description">
                 <br></br>HTML, CSS, API
@@ -167,7 +167,7 @@ class MyWork extends React.Component {
           </div>
           <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
-              <a href="https://beverage-database.netlify.app/">
+              <a href="https://beverage-DB.netlify.app/">
                 <img
                   alt="cocktails-thumbnail"
                   className="portfolio-image"
@@ -178,9 +178,9 @@ class MyWork extends React.Component {
             <div className="portfolio-text">
               <a
                 className="portfolio-headline"
-                href="https://beverage-database.netlify.app/"
+                href="https://beverage-DB.netlify.app/"
               >
-                Beverage Database
+                Beverage DB
               </a>
               <a className="portfolio-description">
                 <br></br>HTML, CSS, React, API
@@ -231,7 +231,7 @@ class MyWork extends React.Component {
                 className="portfolio-headline"
                 href="https://nationalparksdb.netlify.app/"
               >
-                National Parks Database
+                National Parks DB
               </a>
               <a className="portfolio-description">
                 <br></br>HTML, CSS, React, React-Router, API
@@ -275,7 +275,7 @@ class MyWork extends React.Component {
           <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               {" "}
-              <a href="https://mcudatabase.netlify.app/">
+              <a href="https://mcuDB.netlify.app/">
                 <img
                   alt="mcu-thumbnail"
                   className="portfolio-image"
@@ -286,9 +286,9 @@ class MyWork extends React.Component {
             <div className="portfolio-text">
               <a
                 className="portfolio-headline"
-                href="https://mcudatabase.netlify.app/"
+                href="https://mcuDB.netlify.app/"
               >
-                MCU Character Database
+                MCU Character DB
               </a>
               <a className="portfolio-description">
                 <br></br>HTML, CSS, Mongoose, React, Express, MaterialUI
@@ -437,7 +437,7 @@ class MyWork extends React.Component {
                 className="portfolio-headline"
                 href="https://beatlesapi.netlify.app/"
               >
-                The Beatles Lyrics Database (Front-End)
+                The Beatles Lyrics DB (Front-End)
               </a>
               <a className="portfolio-description">
                 <br></br>HTML, CSS, React, Material-UI, Storybook, Axios
@@ -472,7 +472,7 @@ class MyWork extends React.Component {
                 className="portfolio-headline"
                 href="https://github.com/skut21x-ga/beatles-api-repo"
               >
-                The Beatles Lyrics Database (Back-End)
+                The Beatles Lyrics DB (Back-End)
               </a>
               <a className="portfolio-description">
                 <br></br>Mongoose, Express, Passport, JWT, Node.JS

@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import ContactConfirm from "./ContactConfirm";
 import About from "./About";
 import Resume from "./Resume";
+import cloud from "./assets/Wordcloud.png";
 import NavBar from "./NavBar";
 import MyWork from "./MyWork";
 import Intro from "./Intro";
@@ -44,8 +45,9 @@ class App extends React.Component {
         <Route path="/ContactConfirm" component={ContactConfirm} />
         <Route path="/ContactConfirm?" component={ContactConfirm} />
         <Route path="/Resume" component={Resume} />
-        {/* 
-        {this.props.children} */}
+        <div class="bottom-container">
+          <img alt="wordcloud" className="bottom-wordcloud" src={cloud} />
+        </div>
       </div>
     );
   }
