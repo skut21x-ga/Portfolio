@@ -1,6 +1,4 @@
 import React from "react";
-import abstract from "./assets/abstract-small-wide.png";
-import SocialButtons from "./SocialButtons";
 
 class intro extends React.Component {
   render() {

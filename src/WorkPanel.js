@@ -41,12 +41,6 @@ const ExpansionPanelSummary = withStyles({
   expanded: {},
 })(MuiExpansionPanelSummary);
 
-const styles = {
-  paper: {
-    background: "black",
-  },
-};
-
 const ExpansionPanelDetails = withStyles((theme) => ({
   root: {
     backgroundColor: "#325b84",
@@ -124,7 +118,9 @@ export default function WorkPanel() {
               {" "}
               <span class="c20"> </span>
               <span class="c9">Founder & Product Manager | Brotech LLC</span>
-              <span class="c21"> 📱 </span>
+              <span img class="c21">
+                📱
+              </span>
             </p>
           </Typography>
         </ExpansionPanelSummary>
@@ -212,10 +208,11 @@ export default function WorkPanel() {
         >
           <Typography>
             <p class="c4">
-              {" "}
               <span class="c20"> </span>
               <span class="c9">Certified Apple Technician | Apple Inc. </span>
-              <span class="c21"> 👨‍💻 </span>
+              <span img class="c21">
+                👨‍💻
+              </span>
             </p>
           </Typography>
         </ExpansionPanelSummary>

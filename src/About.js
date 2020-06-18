@@ -1,7 +1,6 @@
 import React from "react";
 import cloud from "./assets/Wordcloud.png";
 import scottkutler from "./assets/scottkutler.png";
-import { Link } from "react-router-dom";
 // import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import WorkPanel from "./WorkPanel";
 
@@ -43,10 +42,7 @@ class About extends React.Component {
               </a>
               <p></p>
               <br></br>
-              {/*         <a href="https://github.com/skut21x-ga/portfolio/raw/master/src/assets/ScottKutler-SoftwareEngineerResume.pdf">
-                <h5 className="resume-button">Download Resume (.PDF)</h5>{" "} */}
               <a name="Skills"> </a>
-              {/*        </a>{" "} */}
               <br></br> <br></br>
             </div>
           </div>{" "}

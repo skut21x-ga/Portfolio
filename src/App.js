@@ -1,4 +1,3 @@
-import ReactGA from "react-ga";
 import React from "react";
 import Home from "./Home";
 import Contact from "./Contact";
@@ -10,13 +9,6 @@ import MyWork from "./MyWork";
 import Intro from "./Intro";
 import { Route } from "react-router-dom";
 import "./App.css";
-
-function initializeReactGA() {
-  ReactGA.initialize("UA-169923260-1");
-  ReactGA.pageview("/homepage");
-}
-
-initializeReactGA();
 
 class App extends React.Component {
   constructor(props) {
