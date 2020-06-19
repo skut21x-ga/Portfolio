@@ -16,6 +16,8 @@ import SnowMount from "./PortfolioGifs/SnowMount.gif";
 import StateCapital from "./PortfolioGifs/StateCapital.gif";
 import Trello from "./PortfolioGifs/Trello.gif";
 import War from "./PortfolioGifs/War.gif";
+import RightsHub from "./PortfolioGifs/RightsHub.gif";
+
 // import BROBIG from "./PortfolioGifs/BRO-BIG.gif";
 // import CocktailsBIG from "./PortfolioGifs/Cocktails-BIG.gif";
 // import BeatlesBIG from "./PortfolioGifs/Beatles-BIG.gif";
@@ -38,6 +40,35 @@ class MyWork extends React.Component {
     return (
       <div className="mywork-section">
         <div className="portfolio-container-main">
+          <div className="portfolio-card portfolio-container">
+            <div className="portfolio-image-container">
+              {" "}
+              <a href="https://rightshub.netlify.com">
+                <img
+                  alt="right-hub-thumbnail"
+                  className="portfolio-image"
+                  src={RightsHub}
+                ></img>
+              </a>
+            </div>
+            <div className="portfolio-text">
+              <a
+                className="portfolio-headline"
+                href="https://rightshub.netlify.com"
+              >
+                Rights-Hub [NY] Portal
+              </a>
+              <a className="portfolio-description">
+                <br></br>HTML, CSS, Javascript, Leaflet, React, JSON
+              </a>
+              <a
+                className="portfolio-gitlink"
+                href="https://github.com/hackforblacklivesmatter-5-1/rightshub"
+              >
+                <br></br>- GIT Repo -
+              </a>
+            </div>
+          </div>{" "}
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://www.broapp.com">
