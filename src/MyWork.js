@@ -275,7 +275,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               <a href="http://skut21x-ga.github.io/Storybook/index.html">
                 <img
@@ -452,7 +452,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container non-mobile">
+          <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               {" "}
               <a href="https://beatlesapi.netlify.app/">
