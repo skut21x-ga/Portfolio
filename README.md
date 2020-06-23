@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Scott Kutler
+### Full Stack Software Engineer & Product Manager 
+### scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD
+##
+#### I am a solution-oriented self-starter with a focus on software engineering and product management.
+#### With my upbeat personality and ability to problem-solve under pressure, I can serve as a great addition to any team.
+##
+### Technical Skills & Certifications
+##### • Knowledgeable in: HTML, CSS, Javascript, React, NPM, Node, Express, Mongoose, Django, and Python 
+##### • Amazon certified ‘AWS Cloud Practitioner’
+##### • Apple certified in Apple’s Desktop, Laptop, Mobile Hardware, and OS X Software (2008+)
+##### • Google Cloud certification in G-Suite (ie. Drive, Gmail, Docs, Sheets, Forms)
+##### • Microsoft certified in Office Suite (Word, Excel, PowerPoint, Outlook)
+##### • Knowledgeable in Adobe Creative Cloud products: InDesign, Photoshop, Premiere, Muse, and XD
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Professional Experience
+#### Founder & Software Engineer, Brotech LLC (Bethesda, MD) January 2015 - Present
+##### • Created and maintain operation of one of the top LGBT+ social networks worldwide with over 1,000,000 downloads
+##### • Coordinated and validated the development of applications on iOS, Android, and a supporting administrative web interface
+##### • Defined requirements and oversaw the operation of a team participating in the Agile life cycle via JIRA, Github, and Trello
+##### • Facilitated daily meetings with the team’s Scrum Master, Developers, Designers, and QA Team
+##### • Operated initiatives in market research (ie. conducting focus groups, managing social media, and competitive analysis) to generate quarterly metrics reports and leverage findings to prioritize product development efforts
+##### • Provided customer support via social media engagement (with over 100,000 followers) and traditional help desk support
+##### • Used TestFlight, Google Play Dev. Console, Bash, VS Code, and other tools to manage development / deployment lifecycles
+##### • Monitored and managed production systems in a cloud-based deployment environment (AWS: Lambda, S3, EC2, RDS)
+##
+#### General Manager, Tenley Grill LLC (Washington, DC) February 2015 – February 2020
+##### • Developed restaurant menus and pricing strategy, defined and documented restaurant operating policy
+##### • Managed restaurant operations and used operational oversight to control costs via staff management, scheduling, and inventory control to reach quarterly sales targets.
+##### • Interviewed, hired, and trained over 100 employees on operations, menu, service standards, and company policy
+##### • Coordinated and hosted large group events for 350+ patrons including fundraisers, parties, and live performances
+##
+#### Certified Apple Technician, Apple Inc. (Bethesda, MD) August 2008 – November 2014
+##### • Provided training, service, and hands-on support for Apple customers’ hardware and software
+##### • Developed weekly training and mentorship plans to support employee growth
+##### • Maintained knowledge of Apple’s products, software, and services to provide guidance and support to customers
+##### • Recognized for having one of the highest customer satisfaction ratings (NPS) among all technicians in the market
+##
+#### Market Manager, GMR Marketing (Washington, DC) August 2008 – November 2014
+##### • Contracted and established relationships with venue management to expand partnerships available for event promotions
+##### • Executed weekly meetings, team building events, and training seminars for 50+ employees
+##### • Recruited, trained, and served as initial point of contact for other field employees and direct reports
+##### • Winner of the “National Field Director’s Award” for outstanding achievement and dedication
+##
+### Education
+#### General Assembly, Software Engineering Immersive (Washington, DC) February 2020 – May 2020
+##### • Participated in a Full-Stack Software Engineering Course with over 500+ hours of hands-on Computer Science training in full-stack software engineering
+##### • This immersive course focused in-depth on HTML, CSS, Javascript, React, Django, Python, MongoDB, and Express
+#### American University, Justice (BA) and Film/Visual Design (BA), (Washington, DC) August 2003 – June 200
+#####  • Dean’s List, Alpha Lambda Delta National Honor Society Member, Pi Kappa Phi Fraternity Vice-President
