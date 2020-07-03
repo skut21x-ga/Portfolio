@@ -39,7 +39,7 @@ class About extends React.Component {
             <h1 className="experience-header">Experience</h1>
             <WorkPanel></WorkPanel>{" "}
             <div class="resume-flex-grid">
-              <a href="https://drive.google.com/file/d/1kAJIuuJM0q1IBeobAwm_6E3_CyDHqrlq/view?usp=sharing">
+              <a href="https://docs.google.com/document/d/1COw4Wc7s6oVGetwuoHg8AE_GhIWLzwiV6-ZEw_SdIdc/edit?usp=sharing">
                 <div className="FullResume">
                   <h5 className="resume-button">View Full Resume</h5>{" "}
                 </div>
