@@ -574,6 +574,7 @@ h6 {
   transition: 1s;
   margin-bottom: 5px;
   margin-top: -13.25px;
+  z-index: 100;
   margin-left: -12px;
   /* border-radius: 8px; */
   transition: 1s;

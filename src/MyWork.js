@@ -71,6 +71,7 @@ class MyWork extends React.Component {
                     autoplay
                     playsinline
                     autoplay
+                    className="portfolio-image"
                     muted
                     loop
                   />
