@@ -17,7 +17,7 @@ import Trello from "./PortfolioGifs/Trello.gif";
 import War from "./PortfolioGifs/War.gif";
 import RightsHub from "./PortfolioGifs/RightsHub.gif";
 import BRO from "./PortfolioGifs/BRO.gif";
-import BROMP4 from "https://github.com/skut21x-ga/Portfolio/blob/master/src/PortfolioGifs/BRO.mp4?raw=true";
+// import BROMP4 from "./PortfolioGifs/BRO2.mp4";
 
 class MyWork extends React.Component {
   render() {
@@ -56,16 +56,12 @@ class MyWork extends React.Component {
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://www.broapp.com">
-                <video
+                {" "}
+                <img
+                  alt="snowmount"
                   className="portfolio-image"
-                  onloadedmetadata="this.muted = true"
-                  playsinline
-                  autoplay
-                  muted
-                  loop
-                  src={BROMP4}
-                  type="video/mp4"
-                />
+                  src={BRO}
+                ></img>
               </a>
             </div>
             <div className="portfolio-text">
