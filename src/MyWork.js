@@ -17,7 +17,7 @@ import Trello from "./PortfolioGifs/Trello.gif";
 import War from "./PortfolioGifs/War.gif";
 import RightsHub from "./PortfolioGifs/RightsHub.gif";
 import BRO from "./PortfolioGifs/BRO.gif";
-import BROMP4 from "./PortfolioGifs/BRO.mp4";
+import BROMP4 from "https://github.com/skut21x-ga/Portfolio/blob/master/src/PortfolioGifs/BRO.mp4?raw=true";
 
 class MyWork extends React.Component {
   render() {
@@ -63,20 +63,9 @@ class MyWork extends React.Component {
                   autoplay
                   muted
                   loop
-                >
-                  {" "}
-                  <source
-                    src={BROMP4}
-                    type="video/mp4"
-                    autoplay
-                    playsinline
-                    autoplay
-                    className="portfolio-image"
-                    muted
-                    loop
-                  />
-                  Your browser does not support the video tag for this preview.
-                </video>
+                  src={BROMP4}
+                  type="video/mp4"
+                />
               </a>
             </div>
             <div className="portfolio-text">
