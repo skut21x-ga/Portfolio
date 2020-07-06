@@ -18,7 +18,6 @@ import War from "./PortfolioGifs/War.gif";
 import RightsHub from "./PortfolioGifs/RightsHub.gif";
 import BRO from "./PortfolioGifs/BRO.gif";
 import BROMP4 from "./PortfolioGifs/BRO.mp4";
-import BROWEBM from "./PortfolioGifs/BRO.webm";
 
 class MyWork extends React.Component {
   render() {
@@ -66,8 +65,15 @@ class MyWork extends React.Component {
                   loop
                 >
                   {" "}
-                  <source src={BROWEBM} type="video/webm" autoplay />
-                  <source src={BROMP4} type="video/mp4" autoplay />
+                  <source
+                    src={BROMP4}
+                    type="video/mp4"
+                    autoplay
+                    playsinline
+                    autoplay
+                    muted
+                    loop
+                  />
                   Your browser does not support the video tag for this preview.
                 </video>
               </a>

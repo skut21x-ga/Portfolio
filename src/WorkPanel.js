@@ -62,8 +62,8 @@ export default function WorkPanel() {
     <div className="workcontainer-component">
       <ExpansionPanel
         square
-        expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
+        expanded={expanded === "panel5"}
+        onChange={handleChange("panel5")}
         TransitionProps={{
           timeout: 100,
         }}
