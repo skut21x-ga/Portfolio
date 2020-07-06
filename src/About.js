@@ -23,12 +23,12 @@ class About extends React.Component {
                 {" "}
                 Full-Stack Software Develper & Product Manager
               </div>
-              <br></br>I am a solution-oriented self-starter with a focus on
-              software engineering and product management. With my upbeat
-              personality and ability to problem-solve under pressure, I can
-              serve as a great addition to any team. I'm looking for a
-              collaborative and supportive environment with employees that care
-              about and actively work towards positive social impact.
+              <br></br>I am an experienced start-up founder with a focus on
+              software engineering and product management. With my optimistic
+              personality and ability to problem-solve under pressure, I serve
+              as a great addition to any team. I'm looking for a collaborative
+              and supportive environment with employees that care about and
+              actively work towards positive social impact.
             </h4>{" "}
           </div>
         </div>
