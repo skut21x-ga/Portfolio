@@ -8,7 +8,7 @@ import CoTripper from "./PortfolioGifs/CoTripper.gif";
 import GuessNumber from "./PortfolioGifs/GuessNumber.gif";
 import HarryPoter from "./PortfolioGifs/HarryPotter.gif";
 import MCU from "./PortfolioGifs/MCU.gif";
-import NationalParks from "./PortfolioGifs/NationalParks.gif";
+import NationalParks from "./PortfolioGifs/NationalParksPNG.png";
 import Python from "./PortfolioGifs/Python.gif";
 import SIMON from "./PortfolioGifs/SIMON.gif";
 import SnowMount from "./PortfolioGifs/SnowMount.gif";
