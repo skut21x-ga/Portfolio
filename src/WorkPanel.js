@@ -222,7 +222,7 @@ export default function WorkPanel() {
             <p class="c4">
               <span class="c20"> </span>
               <span class="c9">
-                General Manager & Web Developer | Tenley Grill LLC{" "}
+                General Manager & Web Developer | Tenley Grill{" "}
               </span>
               <span img class="c27">
                 💻
