@@ -4,7 +4,7 @@ import Beatles from "./PortfolioGifs/Beatles.gif";
 import BeatlesBackend from "./PortfolioGifs/Beatles-Backend.png";
 import Cocktails from "./PortfolioGifs/Cocktails.gif";
 import ComponentLibrary from "./PortfolioGifs/ComponentLibrary.gif";
-import CoTripper from "./PortfolioGifs/CoTripper.gif";
+import CoTripper from "./PortfolioGifs/CoTripper.png";
 import GuessNumber from "./PortfolioGifs/GuessNumber.gif";
 import HarryPoter from "./PortfolioGifs/HarryPotter.gif";
 import MCU from "./PortfolioGifs/MCU.gif";
