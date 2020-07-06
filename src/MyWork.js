@@ -2,7 +2,6 @@ import React from "react";
 import airbnb from "./PortfolioGifs/airbnb.gif";
 import Beatles from "./PortfolioGifs/Beatles.gif";
 import BeatlesBackend from "./PortfolioGifs/Beatles-Backend.png";
-import BRO from "./PortfolioGifs/BRO.gif";
 import Cocktails from "./PortfolioGifs/Cocktails.gif";
 import ComponentLibrary from "./PortfolioGifs/ComponentLibrary.gif";
 import CoTripper from "./PortfolioGifs/CoTripper.gif";
@@ -17,23 +16,9 @@ import StateCapital from "./PortfolioGifs/StateCapital.gif";
 import Trello from "./PortfolioGifs/Trello.gif";
 import War from "./PortfolioGifs/War.gif";
 import RightsHub from "./PortfolioGifs/RightsHub.gif";
-
-// import BROBIG from "./PortfolioGifs/BRO-BIG.gif";
-// import CocktailsBIG from "./PortfolioGifs/Cocktails-BIG.gif";
-// import BeatlesBIG from "./PortfolioGifs/Beatles-BIG.gif";
-// import airbnbBIG from "./PortfolioGifs/airbnb-BIG.gif";
-// import ComponentLibraryBIG from "./PortfolioGifs/ComponentLibrary-BIG.gif";
-// import CoTripperBIG from "./PortfolioGifs/CoTripper-BIG.gif";
-// import NationalParksBIG from "./PortfolioGifs/NationalParks-BIG.gif";
-// import GuessNumberBIG from "./PortfolioGifs/GuessNumber-BIG.gif";
-// import HarryPotterBIG from "./PortfolioGifs/HarryPotter-BIG.gif";
-// import PythonBIG from "./PortfolioGifs/Python-BIG.gif";
-// import MCUBIG from "./PortfolioGifs/MCU-BIG.gif";
-// import SIMONBIG from "./PortfolioGifs/SIMON-BIG.gif";
-// import SnowMountBig from "./PortfolioGifs/SnowMount-BIG.gif";
-// import StateCapitalBig from "./PortfolioGifs/StateCapital-BIG.gif";
-// import TrelloBig from "./PortfolioGifs/Trello-BIG.gif";
-// import WarBig from "./PortfolioGifs/War-BIG.gif";
+import BRO from "./PortfolioGifs/BRO.gif";
+import BROMP4 from "./PortfolioGifs/BRO.mp4";
+import BROWEBM from "./PortfolioGifs/BRO.webm";
 
 class MyWork extends React.Component {
   render() {
@@ -72,11 +57,19 @@ class MyWork extends React.Component {
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://www.broapp.com">
-                <img
-                  alt="bro-app-thumbnail"
+                <video
                   className="portfolio-image"
-                  src={BRO}
-                ></img>
+                  onloadedmetadata="this.muted = true"
+                  playsinline
+                  autoplay
+                  muted
+                  loop
+                >
+                  {" "}
+                  <source src={BROWEBM} type="video/webm" autoplay />
+                  <source src={BROMP4} type="video/mp4" autoplay />
+                  Your browser does not support the video tag for this preview.
+                </video>
               </a>
             </div>
             <div className="portfolio-text">
