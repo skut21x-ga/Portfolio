@@ -1,6 +1,6 @@
 import React from "react";
 import cloud from "./assets/Wordcloud.png";
-import scottkutler from "./assets/scottkutler.png";
+import scottkutler from "./assets/scottkutler-new.png";
 // import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import WorkPanel from "./WorkPanel";
 
