@@ -2,10 +2,6 @@
 ### Full Stack Software Engineer & Product Manager 
 ### scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD
 ##
-#### I am an experienced start-up founder with a focus on software engineering and product management.
-#### I have an optimistic personality and greatly value the importance of teamwork and self-improvement.
-
-##
 ### Technical Skills & Certifications
 ##### • Knowledgeable in: HTML, CSS, Javascript, React, NPM, Node, Express, Mongoose, Django, and Python 
 ##### • Amazon certified ‘AWS Cloud Practitioner’
