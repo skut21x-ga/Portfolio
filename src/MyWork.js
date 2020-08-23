@@ -181,7 +181,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container">
+          <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               <a href="https://beverage-database.netlify.app">
                 <img
