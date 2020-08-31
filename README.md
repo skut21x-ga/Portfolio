@@ -3,7 +3,7 @@
 ### scott.kutler@gmail.com | 469.387.0895 | Bethesda, MD
 ##
 ### Technical Skills & Certifications
-##### • Knowledgeable in: HTML, CSS, Javascript, React, NPM, Node, Express, Mongoose, Django, and Python 
+##### • Knowledgeable in: HTML, CSS, Javascript, React, NPM, Node, Express, Mongoose, and Python 
 ##### • Amazon certified ‘AWS Cloud Practitioner’
 ##### • Apple certified in Apple’s Desktop, Laptop, Mobile Hardware, and OS X Software (2008+)
 ##### • Google Cloud certification in G-Suite (ie. Drive, Gmail, Docs, Sheets, Forms)
