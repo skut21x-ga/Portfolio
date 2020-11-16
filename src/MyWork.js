@@ -376,7 +376,7 @@ class MyWork extends React.Component {
           <div className="portfolio-card portfolio-container non-mobile">
             <div className="portfolio-image-container">
               {" "}
-              <a href="https://mcuDB.netlify.app/">
+              <a href="https://mcudatabase.netlify.app/">
                 <img
                   alt="mcu-thumbnail"
                   className="portfolio-image"
