@@ -6,7 +6,6 @@ import Cocktails from "./PortfolioGifs/Cocktails.gif";
 import ComponentLibrary from "./PortfolioGifs/ComponentLibrary.gif";
 import CoTripper from "./PortfolioGifs/CoTripper.png";
 import GuessNumber from "./PortfolioGifs/GuessNumber.gif";
-import HarryPoter from "./PortfolioGifs/HarryPotter.gif";
 import MCU from "./PortfolioGifs/MCU.gif";
 import NationalParks from "./PortfolioGifs/NationalParksPNG.png";
 import Python from "./PortfolioGifs/Python.gif";
@@ -181,62 +180,7 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>{" "}
-          <div className="portfolio-card portfolio-container non-mobile">
-            <div className="portfolio-image-container">
-              <a href="https://beverage-database.netlify.app">
-                <img
-                  alt="cocktails-thumbnail"
-                  className="portfolio-image"
-                  src={Cocktails}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://beverage-DB.netlify.app/"
-              >
-                Beverage DB
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS, React, API
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
-          <div className="portfolio-card portfolio-container ">
-            <div className="portfolio-image-container">
-              <a href="https://skut21x-ga.github.io/UI-Pattern/index.html">
-                <img
-                  alt="HarryPotter-thumbnail"
-                  className="portfolio-image"
-                  src={HarryPoter}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/UI-Pattern/index.html"
-              >
-                Harry Potter Character DB
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS, API
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/react-ui-pattern-lab"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>
+         
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               {" "}
