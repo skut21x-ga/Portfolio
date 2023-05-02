@@ -78,7 +78,7 @@ export default function WorkPanel() {
               <span class="c20"> </span>
               <span class="c9">Web Developer | Blueprint Interactive</span>
               <span img alt="keyboard" class="c21">
-                ⌨️
+                🌎
               </span>
             </p>
           </Typography>
