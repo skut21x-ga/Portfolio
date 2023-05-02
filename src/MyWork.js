@@ -1,17 +1,11 @@
 import React from "react";
-import airbnb from "./PortfolioGifs/airbnb.gif";
-import Beatles from "./PortfolioGifs/Beatles.gif";
 import BeatlesBackend from "./PortfolioGifs/Beatles-Backend.png";
-import Cocktails from "./PortfolioGifs/Cocktails.gif";
 import ComponentLibrary from "./PortfolioGifs/ComponentLibrary.gif";
 import CoTripper from "./PortfolioGifs/CoTripper.png";
 import GuessNumber from "./PortfolioGifs/GuessNumber.gif";
-import MCU from "./PortfolioGifs/MCU.gif";
 import NationalParks from "./PortfolioGifs/NationalParksPNG.png";
 import Python from "./PortfolioGifs/Python.gif";
 import SIMON from "./PortfolioGifs/SIMON.gif";
-import SnowMount from "./PortfolioGifs/SnowMount.gif";
-import StateCapital from "./PortfolioGifs/StateCapital.gif";
 import Trello from "./PortfolioGifs/Trello.gif";
 import War from "./PortfolioGifs/War.gif";
 import RightsHub from "./PortfolioGifs/RightsHub.gif";
@@ -103,35 +97,6 @@ class MyWork extends React.Component {
           </div>{" "}
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
-              <a href="https://skut21x-ga.github.io/Mockup/index.html">
-                {" "}
-                <img
-                  alt="snowmount"
-                  className="portfolio-image"
-                  src={SnowMount}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/Mockup/index.html"
-              >
-                SnowMount Homepage
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/WebsiteMockup"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>{" "}
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
               <a href="https://cotripper.netlify.app/">
                 <img
                   alt="cotripper-thumbnail"
@@ -156,58 +121,6 @@ class MyWork extends React.Component {
               >
                 <br></br>- GIT Repo -
               </a>
-            </div>
-          </div>
-          <div className="portfolio-card portfolio-container non-mobile">
-            <a href="https://skut21x-ga.github.io/airbnb/lib/index.html">
-              <img alt="airbnb" className="portfolio-image" src={airbnb}></img>
-            </a>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://skut21x-ga.github.io/airbnb/lib/index.html"
-              >
-                Travel Website Mockup
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://git.generalassemb.ly/skut21x/css-airbnb"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>{" "}
-         
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              {" "}
-              <a href="https://beatlesapi.netlify.app/">
-                <img
-                  alt="beatles-thumbnail"
-                  className="portfolio-image"
-                  src={Beatles}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://beatlesapi.netlify.app/"
-              >
-                The Beatles Lyrics DB (Front-End)
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS, React, Material-UI, Storybook, Axios
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/beatles-mern-project"
-              >
-                <br></br>- GIT Repo -
-              </a>{" "}
             </div>
           </div>
           <div className="portfolio-card portfolio-container">
@@ -317,41 +230,6 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container non-mobile">
-            <div className="portfolio-image-container">
-              {" "}
-              <a href="https://mcudatabase.netlify.app/">
-                <img
-                  alt="mcu-thumbnail"
-                  className="portfolio-image"
-                  src={MCU}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://mcuDB.netlify.app/"
-              >
-                MCU Character DB
-              </a>
-              <a className="portfolio-description">
-                <br></br>HTML, CSS, Mongoose, React, Express, MaterialUI
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/mcu-mern-project"
-              >
-                <br></br>- GIT Repo (Front-End) /{" "}
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/mcu-api"
-              >
-                GIT Repo (Back-End) -
-              </a>
-            </div>
-          </div>{" "}
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <a href="https://github.com/skut21x-ga/PythonAddressBook">
@@ -410,34 +288,6 @@ class MyWork extends React.Component {
               </a>
             </div>
           </div>
-          <div className="portfolio-card portfolio-container">
-            <div className="portfolio-image-container">
-              <a href="https://github.com/skut21x-ga/state-capitals-game">
-                <img
-                  alt="state-capital-thumbnail"
-                  className="portfolio-image"
-                  src={StateCapital}
-                ></img>
-              </a>
-            </div>
-            <div className="portfolio-text">
-              <a
-                className="portfolio-headline"
-                href="https://github.com/skut21x-ga/state-capitals-game"
-              >
-                Python: State Capitals Game
-              </a>
-              <a className="portfolio-description">
-                <br></br>Python
-              </a>
-              <a
-                className="portfolio-gitlink"
-                href="https://github.com/skut21x-ga/state-capitals-game"
-              >
-                <br></br>- GIT Repo -
-              </a>
-            </div>
-          </div>{" "}
           <div className="portfolio-card portfolio-container">
             <div className="portfolio-image-container">
               <img

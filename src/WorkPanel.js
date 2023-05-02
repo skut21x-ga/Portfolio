@@ -62,6 +62,60 @@ export default function WorkPanel() {
     <div className="workcontainer-component">
       <ExpansionPanel
         square
+        expanded={expanded === "panel0"}
+        onChange={handleChange("panel0")}
+        TransitionProps={{
+          timeout: 100,
+        }}
+      >
+        <ExpansionPanelSummary
+          aria-controls="panel1d-content"
+          id="panel1d-header"
+        >
+          <Typography>
+            <p class="c4">
+              {" "}
+              <span class="c20"> </span>
+              <span class="c9">Web Developer | Blueprint Interactive</span>
+              <span img alt="keyboard" class="c21">
+                ⌨️
+              </span>
+            </p>
+          </Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            {" "}
+            <p class="c4">
+              <span class="c7">July 2020 &ndash; Present</span>
+            </p>
+            <p class="c4 c10">
+              <span class="c13"></span>
+            </p>
+            <p class="c6">
+              <span class="c1">
+                &bull; &nbsp; Responsible for developing and maintaining dozens of websites ranging from static landing pages to full PHP-based CMS sites
+              </span>
+            </p>
+            <p class="c6">
+              <span class="c1">
+                &bull; &nbsp; Work closely with designers, account leads, and developers to launch sites for both internal use and clients
+              </span>
+            </p>
+            <p class="c6">
+              <span class="c1">
+                &bull; &nbsp;  Utilize HTML, CSS, JavaScript, PHP, React, and WordPress in full-stack web development; including implementation of several APIs such as Stripe, HubSpot, and ActionNetwork
+              </span>
+            </p>
+            <p class="c4 c10">
+              <span class="c3"></span>
+            </p>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <div className="expansion-spacing"></div>
+      <ExpansionPanel
+        square
         expanded={expanded === "panel5"}
         onChange={handleChange("panel5")}
         TransitionProps={{

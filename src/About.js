@@ -26,8 +26,8 @@ class About extends React.Component {
               <br></br>I am an experienced start-up founder with a focus on
               software engineering and product management. With my optimistic
               personality and ability to problem-solve under pressure, I serve
-              as a great addition to any team. I'm looking for a collaborative
-              and supportive environment with employees that care about and
+              as a great addition to any team. I enjoy collaborative
+              and supportive environments with employees that care about and
               actively work towards positive social impact.
             </h4>{" "}
           </div>
@@ -61,7 +61,7 @@ class About extends React.Component {
               <span className="skills-bullet">• </span> Javascript <br />
               <span className="skills-bullet">• </span> React <br />
               <span className="skills-bullet">• </span> Responsive Design <br />{" "}
-              <span className="skills-bullet">• </span> Storybook
+              <span className="skills-bullet">• </span> jQuery
             </h5>
             <h4 className="about-h4-left">Deployment</h4>
             <h5 className="about-h5-left">
@@ -82,12 +82,7 @@ class About extends React.Component {
               <br />
               <span className="skills-bullet">• </span> Adobe XD
               <br />
-              <span className="skills-bullet">• </span> Adobe Premiere
-              <br />
-              <span className="skills-bullet">• </span> Adobe Muse
-              <br />
-              <span className="skills-bullet">• </span> Adobe AfterEffects
-              <br />
+
             </h5>
           </div>
           <div class="col2 about-wordcloud">
